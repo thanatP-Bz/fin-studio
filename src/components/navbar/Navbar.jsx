@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
+import { HiMenuAlt2, HiX } from "react-icons/hi";
 
 const links = [
   {
@@ -27,22 +28,41 @@ const links = [
 ];
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const clickHandler = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="fixed top-0 left-0 w-full z-10 text-white">
-      <div className="flex justify-between items-center px-[60px] py-4 mx-auto my-0 max-w-[1366px]">
+      <nav className="justify-between items-center py-5 container">
         <Link href="/">
           <h1 className="text-xl font-bold">FIN Studio</h1>
         </Link>
-        <div className="flex item-center gap-10 ">
-          {links.map((link) => {
-            return (
-              <Link key={link.id} href={link.url}>
-                {link.title}
-              </Link>
-            );
-          })}
+        <div className="cursor-pointer text-4xl z-20" onClick={clickHandler}>
+          {menuOpen ? <HiX /> : <HiMenuAlt2 />}
         </div>
-      </div>
+        <div
+          className={
+            menuOpen
+              ? `fixed h-screen top-0 right-0 left-0 bottom-0 bg-black/80`
+              : "fixed h-screen top-0 right-0 left-0 bottom-0"
+          }
+        >
+          <div className="flex h-screen w-full">
+            <div className="flex gap-y-5 text-2xl justify-center items-end flex-col h-full container">
+              {links.map((link) => {
+                return (
+                  <Link key={link.id} href={link.url}>
+                    {link.title}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 };
