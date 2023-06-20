@@ -3,8 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="w-full flex justify-center items-center overflow-hidden relative h-screen bg-cover bg-gray-300 custom-img">
-        <div className=" text-white container flex-col">
+      <div className="home-img relative flex h-screen w-full items-center justify-center overflow-hidden bg-gray-300 bg-cover">
+        <div className=" container flex-col text-white">
           <div className="text-6xl font-bold">
             <h1>Final</h1>
             <br />
@@ -13,7 +13,7 @@ const Hero = () => {
             <h1>Notation</h1>
             <br />
           </div>
-          <p className="flex justify-end w-full max-w-[1000px] p-2">
+          <p className="flex w-full max-w-[1000px] justify-end p-2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
             laudantium possimus quos provident similique nobis neque consectetur
             nihil consequatur et!

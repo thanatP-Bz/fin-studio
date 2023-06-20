@@ -2,8 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* no blue highlight */
+.no-highlight {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* underline effect */
+.link-underline {
+  /*  border-bottom-width: 3px; */
+  padding-bottom: 5px;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+}
+
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 100% 100%;
+}
+
 body {
   text-transform: uppercase;
+  background-color: rgb(59, 59, 59);
+}
+
+.body-container {
+  min-height: 100vh;
+  position: relative;
 }
 
 .container {
@@ -14,8 +53,14 @@ body {
   display: flex;
 }
 
-.custom-img {
+.home-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url(../../public/home.jpg);
+  background-position: center;
+}
+
+.about-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../../public/about.jpg);
   background-position: center;
 }
