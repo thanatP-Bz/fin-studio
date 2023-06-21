@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="home-img relative flex h-screen w-full items-center justify-center overflow-hidden bg-gray-300 bg-cover">
         <div className=" container flex-col text-white">
           <div className="text-6xl font-bold">
-            <h1>Final</h1>
+            <h1 className="font-unsteady">Final</h1>
             <br />
             <h1>Intrigated</h1>
             <br />

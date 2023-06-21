@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Orbitron } from "next/font/google";
+import localFont from "next/font/local";
 
 const inter = Orbitron({ subsets: ["latin"] });
 
