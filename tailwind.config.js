@@ -6,11 +6,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        unsteady: "Unsteady OverSteer, outlines",
-      },
-    },
+    extend: {},
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }

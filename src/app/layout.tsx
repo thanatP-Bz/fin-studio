@@ -1,10 +1,10 @@
 import "./globals.css";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
-import { Orbitron } from "next/font/google";
+import { Kanit } from "next/font/google";
 import localFont from "next/font/local";
 
-const inter = Orbitron({ subsets: ["latin"] });
+const inter = Kanit({ subsets: ["latin"], weight: ["300"] });
 
 export const metadata = {
   title: "Create Next App",
