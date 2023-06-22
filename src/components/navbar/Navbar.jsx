@@ -76,7 +76,7 @@ const Navbar = () => {
                 })}
               </div>
 
-              <div className="container mb-2 flex-col gap-4 text-[0.7rem]">
+              <div className="container mb-2 flex-col gap-4 text-[1rem]">
                 <span className="w-full bg-white p-[0.5px]"></span>
                 <div className="flex justify-between">
                   <p>©2023 FIN studio Limited. All rights reserved.</p>
