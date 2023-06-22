@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className=" h-screen w-screen">
       <div className="about-img mb-[3%] flex h-[85vh] w-full items-center justify-center overflow-hidden bg-gray-300 bg-cover">
-        <h1 className="text-center text-6xl font-bold text-white">
+        <h1 className="text-center text-[5rem] font-bold uppercase text-white">
           about fin studio
         </h1>
       </div>
