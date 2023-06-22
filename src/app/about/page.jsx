@@ -9,7 +9,7 @@ const About = () => {
         </h1>
       </div>
       <div className="container w-full justify-center">
-        <div className="relative top-[-40px] items-center justify-center bg-slate-400 p-6 text-white">
+        <div className="relative items-center justify-center bg-slate-400 p-6 text-white">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             tempora pariatur voluptatem sed a praesentium modi repudiandae quam
