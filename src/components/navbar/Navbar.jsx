@@ -2,8 +2,10 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { HiMenuAlt2, HiX } from "react-icons/hi";
 import { AiFillFacebook } from "react-icons/ai";
+import { VscMenu, VscClose } from "react-icons/vsc";
+import Image from "next/image";
+import Logo from "../../../public/fin-logo.png";
 
 const links = [
   {
@@ -38,18 +40,18 @@ const Navbar = () => {
   return (
     <div className="fixed left-0 top-0 z-30 h-screen w-full text-white">
       <nav className="container h-full flex-col items-center justify-between py-5">
-        <div className="flex w-full items-center justify-between">
+        <div className="flex w-full items-center justify-between ">
           {/* logo */}
           <Link href="/">
-            <h1 className="text-xl font-bold">FIN Studio</h1>
+            <Image src={Logo} width={100} height={100} alt="logo" />
           </Link>
 
           {/* logo */}
-          <div className="z-10 cursor-pointer text-4xl" onClick={clickHandler}>
+          <div className="z-10 cursor-pointer text-5xl" onClick={clickHandler}>
             {menuOpen ? (
-              <HiX className="transition-all duration-700 ease-in-out" />
+              <VscClose className="transition-all duration-700 ease-in-out" />
             ) : (
-              <HiMenuAlt2 className="transition-all duration-700 ease-in-out" />
+              <VscMenu className="transition-all duration-700 ease-in-out" />
             )}
           </div>
         </div>
