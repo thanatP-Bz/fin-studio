@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
+import { AiFillFacebook } from "react-icons/ai";
 
 const links = [
   {
@@ -67,7 +68,12 @@ const Navbar = () => {
               <div className="no-highlight container relative h-full translate-x-0 flex-col items-end justify-center gap-y-5 text-2xl transition-all duration-700 ease-in-out ">
                 {links.map((link) => {
                   return (
-                    <Link key={link.id} href={link.url} onClick={clickHandler}>
+                    <Link
+                      key={link.id}
+                      href={link.url}
+                      onClick={clickHandler}
+                      className="text-4xl"
+                    >
                       <span className="link link-underline link-underline-black">
                         {link.title}
                       </span>
@@ -80,7 +86,12 @@ const Navbar = () => {
                 <span className="w-full bg-white p-[0.5px]"></span>
                 <div className="flex justify-between">
                   <p>©2023 FIN studio Limited. All rights reserved.</p>
-                  <p>social media</p>
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=100093002670493"
+                    className="text-2xl"
+                  >
+                    <AiFillFacebook />
+                  </Link>
                 </div>
               </div>
             </div>
