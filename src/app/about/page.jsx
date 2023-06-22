@@ -11,7 +11,7 @@ const About = () => {
         </h1>
       </div>
 
-      <div className=" container h-3/5 w-screen">
+      <div className=" container h-3/5 w-screen gap-x-4">
         <div className=" w-full">
           <Image
             src={Image1}
@@ -19,7 +19,8 @@ const About = () => {
             className="h-full w-full object-cover"
           />
         </div>
-        <div className="h-full w-full">
+        <div className=" flex h-full w-full flex-col items-center justify-center gap-x-4 gap-y-6 p-6 shadow-md">
+          <h1 className="text-4xl font-bold">FIN</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             quas, beatae nulla laudantium labore atque quae corrupti natus
