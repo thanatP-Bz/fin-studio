@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 z-30 flex w-full md:hidden">
+    <div className="fixed left-0 top-0 z-30 flex w-full bg-white md:hidden">
       <nav className="container h-full flex-col items-center justify-between">
         <div className="flex w-full items-center justify-between ">
           <MenuIcon clickHandler={clickHandler} menuOpen={menuOpen} />

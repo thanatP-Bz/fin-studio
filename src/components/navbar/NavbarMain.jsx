@@ -33,7 +33,7 @@ const links = [
 
 const NavbarMain = () => {
   return (
-    <div className="fixed left-0 top-0 z-30 hidden w-full bg-white md:block">
+    <div className="fixed left-0 top-0 z-30 hidden w-full bg-white  md:block">
       <nav className=" h-full flex-col items-center justify-between">
         <div className="flex h-full flex-col items-center ">
           <Link href="/">
