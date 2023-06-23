@@ -22,11 +22,16 @@ const links = [
   },
   {
     id: 4,
+    title: "news",
+    url: "/news",
+  },
+  {
+    id: 5,
     title: "about",
     url: "/about",
   },
   {
-    id: 5,
+    id: 6,
     title: "contact",
     url: "/contact",
   },

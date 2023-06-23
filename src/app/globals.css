@@ -35,6 +35,10 @@
   background-position: 100% 100%;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #fff;
 }
@@ -52,7 +56,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 100๔;
+  max-width: 100%;
   margin: 0 auto;
   padding: 5px 60px;
   display: flex;
@@ -68,4 +72,10 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url(../../public/about.jpg);
   background-position: center;
+}
+
+.team-img {
+  background-image: url(../../public/19742.jpg);
+  background-position: center;
+  background-size: cover;
 }

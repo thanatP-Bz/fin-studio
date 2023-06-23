@@ -21,11 +21,16 @@ const links = [
   },
   {
     id: 4,
+    title: "news",
+    url: "/news",
+  },
+  {
+    id: 5,
     title: "about",
     url: "/about",
   },
   {
-    id: 5,
+    id: 6,
     title: "contact",
     url: "/contact",
   },
@@ -33,7 +38,7 @@ const links = [
 
 const NavbarMain = () => {
   return (
-    <div className="fixed left-0 top-[2%] z-30 hidden w-full bg-white  md:block">
+    <div className="fixed left-0 z-30 hidden w-full bg-white  md:block">
       <nav className=" h-full flex-col items-center justify-between">
         <div className="flex h-full flex-col items-center ">
           <Link href="/">
