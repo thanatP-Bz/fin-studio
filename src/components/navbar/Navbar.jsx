@@ -1,11 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
-import { AiFillFacebook } from "react-icons/ai";
-import { VscMenu, VscClose } from "react-icons/vsc";
-import Image from "next/image";
-import Logo from "../../../public/fin-logo.png";
+import NavbarSmall from "./NavbarSmall";
+import MenuIcon from "../menuIcon/MenuIcon";
 
 const links = [
   {
@@ -20,11 +17,16 @@ const links = [
   },
   {
     id: 3,
+    title: "fin contest",
+    url: "/contact",
+  },
+  {
+    id: 4,
     title: "about",
     url: "/about",
   },
   {
-    id: 4,
+    id: 5,
     title: "contact",
     url: "/contact",
   },
@@ -38,22 +40,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 z-30 h-screen w-full text-white">
-      <nav className="container h-full flex-col items-center justify-between py-5">
+    <div className="fixed left-0 top-0 z-30 flex w-full md:hidden">
+      <nav className="container h-full flex-col items-center justify-between">
         <div className="flex w-full items-center justify-between ">
-          {/* logo */}
-          <Link href="/">
-            <Image src={Logo} width={100} height={100} alt="logo" />
-          </Link>
-
-          {/* logo */}
-          <div className="z-10 cursor-pointer text-5xl" onClick={clickHandler}>
-            {menuOpen ? (
-              <VscClose className="transition-all duration-700 ease-in-out" />
-            ) : (
-              <VscMenu className="transition-all duration-700 ease-in-out" />
-            )}
-          </div>
+          <MenuIcon clickHandler={clickHandler} menuOpen={menuOpen} />
         </div>
 
         {/* overlay */}
@@ -66,37 +56,7 @@ const Navbar = () => {
         >
           {/* navbar */}
           {menuOpen ? (
-            <div className="flex h-screen w-screen flex-col justify-between">
-              <div className="no-highlight container relative h-full translate-x-0 flex-col items-end justify-center gap-y-5 text-2xl transition-all duration-700 ease-in-out ">
-                {links.map((link) => {
-                  return (
-                    <Link
-                      key={link.id}
-                      href={link.url}
-                      onClick={clickHandler}
-                      className="text-4xl"
-                    >
-                      <span className="link link-underline link-underline-black">
-                        {link.title}
-                      </span>
-                    </Link>
-                  );
-                })}
-              </div>
-
-              <div className="container mb-2 flex-col gap-4 text-[1rem]">
-                <span className="w-full bg-white p-[0.5px]"></span>
-                <div className="flex justify-between">
-                  <p>©2023 FIN studio Limited. All rights reserved.</p>
-                  <Link
-                    href="https://www.facebook.com/profile.php?id=100093002670493"
-                    className="text-2xl"
-                  >
-                    <AiFillFacebook />
-                  </Link>
-                </div>
-              </div>
-            </div>
+            <NavbarSmall links={links} clickHandler={clickHandler} />
           ) : (
             <div className="translate-x-full" />
           )}

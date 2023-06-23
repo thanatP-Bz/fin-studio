@@ -1,10 +1,12 @@
 import React from "react";
-import Hero from "../components/hero/Hero";
+
 const Homepage = () => {
   return (
-    <div>
-      <Hero />
-    </div>
+    <>
+      <div className="z-10 flex h-screen w-screen items-center justify-center">
+        <div className="home-img h-[80vh] w-full overflow-hidden bg-gray-300 bg-cover md:h-[70]"></div>
+      </div>
+    </>
   );
 };
 

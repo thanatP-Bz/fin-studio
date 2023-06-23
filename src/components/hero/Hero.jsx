@@ -2,20 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="home-img relative flex h-screen w-full items-center justify-center overflow-hidden bg-gray-300 bg-cover">
-        <div className=" container h-4/5 flex-col justify-end gap-y-2 p-10 text-white">
-          <h1 className="text-[5rem] font-bold uppercase">
-            {" "}
-            Beyond Than Design
-          </h1>
-          <p className="flex w-full max-w-[1000px] justify-end p-2 text-2xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-            laudantium possimus quos provident similique nobis neque consectetur
-            nihil consequatur et!
-          </p>
-        </div>
-      </div>
+    <div className="z-10 flex h-screen w-full items-center justify-center">
+      <div className="home-img h-[100vh] w-full overflow-hidden bg-gray-300 bg-cover"></div>
     </div>
   );
 };
