@@ -22,8 +22,7 @@ const Contact = () => {
         <div className="flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:h-[70%]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15490.467505245035!2d100.438514310702!3d13.921833811271211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2857afab65b13%3A0xd9efdb3a1c55c3b9!2z4Liq4Lix4Lih4Lih4Liy4LiB4Lij!5e0!3m2!1sen!2sus!4v1687573549858!5m2!1sen!2sus"
-            width="700"
-            height="450"
+            className="mr-8 h-full w-full"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"

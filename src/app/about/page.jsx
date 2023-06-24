@@ -35,7 +35,7 @@ const About = () => {
       </div>
 
       {/* team */}
-      <div className="team-img mx-auto mt-[10%] w-full  bg-red-200 py-6 text-center uppercase md:my-0">
+      <div className="team-img mx-auto mt-[10%] w-full py-6 text-center uppercase md:mb-[5%] md:mt-[0]">
         <h1 className="p-4 text-2xl font-bold md:text-4xl">team</h1>
         <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:items-start">
           <div className="bg-white">
