@@ -45,10 +45,14 @@ const NavbarMain = () => {
             <Image src={Logo} width={100} height={100} alt="logo" />
           </Link>
 
-          <div className="flex gap-x-[7rem]">
+          <div className="flex w-full max-w-[1400px] items-center justify-between ">
             {links.map((link) => {
               return (
-                <Link key={link.id} href={link.url} className=" uppercase">
+                <Link
+                  key={link.id}
+                  href={link.url}
+                  className=" text-xl uppercase"
+                >
                   <span className="link link-underline link-underline-black">
                     {link.title}
                   </span>
