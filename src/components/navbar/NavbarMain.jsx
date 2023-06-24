@@ -51,7 +51,7 @@ const NavbarMain = () => {
             />
           </Link>
 
-          <div className="flex w-full max-w-[1400px] items-center justify-between ">
+          <div className="mt-2 flex w-full max-w-[1400px] items-center justify-between">
             {links.map((link) => {
               return (
                 <Link
