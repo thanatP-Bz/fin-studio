@@ -37,20 +37,20 @@ const About = () => {
           <div className="flex flex-col gap-y-4 bg-white">
             <Image src={aniwat} width={400} height={400} alt="aniwat" />
 
-            <h1 className="font-bold">Aniwat Suyata</h1>
+            <h1 className="text-xl font-bold">Aniwat Suyata</h1>
             <p>Founder / Architect</p>
           </div>
 
           <div className=" flex flex-col gap-y-4 bg-white">
             <Image src={kitwat} width={400} height={400} alt="kitwat" />
-            <h1 className="font-bold">Kitwat Thasee</h1>
+            <h1 className="text-xl font-bold">Kitwat Thasee</h1>
             <p>Director / Architect</p>
           </div>
 
           <div className="flex flex-col gap-y-4 bg-white">
             <Image src={kamphon} width={400} height={400} alt="kamphon" />
 
-            <h1 className="font-bold">Kamphon Mingklin</h1>
+            <h1 className="text-xl font-bold">Kamphon Mingklin</h1>
             <p>Director / 3D model</p>
           </div>
         </div>

@@ -42,7 +42,13 @@ const NavbarMain = () => {
       <nav className=" h-full flex-col items-center justify-between">
         <div className="flex h-full flex-col items-center ">
           <Link href="/">
-            <Image src={Logo} width={100} height={100} alt="logo" />
+            <Image
+              src={Logo}
+              width={100}
+              height={100}
+              alt="logo"
+              className="bg-red-300"
+            />
           </Link>
 
           <div className="flex w-full max-w-[1400px] items-center justify-between ">
