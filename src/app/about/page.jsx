@@ -35,7 +35,7 @@ const About = () => {
 
       {/* team */}
       <div className=" mb-[7%] w-full text-center uppercase md:mb-[5%] md:mt-[0]">
-        <h1 className=" p-8 text-2xl font-bold md:text-[28px]">team</h1>
+        <h1 className=" p-8 text-2xl font-bold md:text-[28px]">studio team</h1>
         <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:items-start">
           <div className="flex flex-col gap-y-4 bg-white">
             <Image src={aniwat} width={300} height={300} alt="aniwat" />
