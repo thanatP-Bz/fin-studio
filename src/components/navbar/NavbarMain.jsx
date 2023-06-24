@@ -44,10 +44,10 @@ const NavbarMain = () => {
           <Link href="/">
             <Image
               src={Logo}
-              width={100}
-              height={100}
+              width={160}
+              height={160}
               alt="logo"
-              className="bg-red-300"
+              className="p-2"
             />
           </Link>
 
