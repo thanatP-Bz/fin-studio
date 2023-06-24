@@ -7,10 +7,10 @@ import kitwat from "../../../public/kitwat.png";
 const About = () => {
   return (
     <div>
-      <div className="mb-[7%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-0 md:flex-row">
-        <div className="about-img flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:h-[70%]"></div>
+      <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-0">
+        <div className="about-img flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
 
-        <div className=" flex h-[50%] w-full flex-col items-center justify-start gap-y-0 overflow-hidden p-5 md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
+        <div className="flex h-[50%] w-full max-w-[1000px] flex-col items-center justify-start gap-y-0 p-4 md:h-[100%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
           <h1 className="text-2xl font-bold md:text-4xl">Fin Studio History</h1>
           <p>
             F = Final I = Integrated N = Notion `The final feelings and
