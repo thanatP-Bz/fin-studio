@@ -8,15 +8,10 @@ const About = () => {
   return (
     <>
       <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-0">
-        <div className="contact-img flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
+        <div className="about-img flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
 
         <div className="flex h-[50%] w-full max-w-[1000px] flex-col items-center justify-start gap-y-0 p-4 md:h-[100%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
           <h1 className="text-2xl font-bold uppercase md:text-[28px]">
-            Welcome to Fin Studio
-          </h1>
-          <p>Modern Architectures, Interiors, Designs and Inspirations</p>
-
-          {/* <h1 className="text-2xl font-bold uppercase md:text-[28px]">
             Fin Studio History
           </h1>
           <p>
@@ -29,7 +24,7 @@ const About = () => {
             some files for you and those who are interested to learn to get
             further benefit. And from now on, we have to develop the works that
             were started for fun turn to be serious for our fan page.
-          </p> */}
+          </p>
         </div>
       </div>
 
@@ -40,20 +35,20 @@ const About = () => {
           <div className="flex flex-col gap-y-4 bg-white">
             <Image src={aniwat} width={300} height={300} alt="aniwat" />
 
-            <h1>Aniwat Suyata</h1>
+            <h1 className="font-bold">Aniwat Suyata</h1>
             <p>Founder / Architect</p>
           </div>
 
           <div className=" flex flex-col gap-y-4 bg-white">
             <Image src={kitwat} width={300} height={300} alt="kitwat" />
-            <h1>Kitwat Thasee</h1>
+            <h1 className="font-bold">Kitwat Thasee</h1>
             <p>Director / Architect</p>
           </div>
 
           <div className="flex flex-col gap-y-4 bg-white">
             <Image src={kamphon} width={300} height={300} alt="kamphon" />
 
-            <h1>Kamphon Mingklin</h1>
+            <h1 className="font-bold">Kamphon Mingklin</h1>
             <p>Director / 3D model</p>
           </div>
         </div>
