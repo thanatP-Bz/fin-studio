@@ -38,7 +38,7 @@ const links = [
 
 const NavbarMain = () => {
   return (
-    <div className="fixed left-0 z-30 hidden w-full bg-white  md:block">
+    <div className="fixed left-0 z-30 hidden w-full bg-white pb-2  md:block">
       <nav className=" h-full flex-col items-center justify-between">
         <div className="flex h-full flex-col items-center ">
           <Link href="/">
@@ -59,7 +59,9 @@ const NavbarMain = () => {
                   href={link.url}
                   className="text-md uppercase"
                 >
-                  <span>{link.title}</span>
+                  <span className="link link-underline link-underline-black">
+                    {link.title}
+                  </span>
                 </Link>
               );
             })}

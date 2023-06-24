@@ -14,9 +14,7 @@ const NavbarSmall = ({ links, clickHandler }) => {
               onClick={clickHandler}
               className="text-xl uppercase"
             >
-              <span className="link link-underline link-underline-black">
-                {link.title}
-              </span>
+              <span>{link.title}</span>
             </Link>
           );
         })}
