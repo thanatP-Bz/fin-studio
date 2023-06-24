@@ -11,7 +11,9 @@ const About = () => {
         <div className="about-img flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
 
         <div className="flex h-[50%] w-full max-w-[1000px] flex-col items-center justify-start gap-y-0 p-4 md:h-[100%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
-          <h1 className="text-2xl font-bold md:text-4xl">Fin Studio History</h1>
+          <h1 className="text-2xl font-bold uppercase md:text-[28px]">
+            Fin Studio History
+          </h1>
           <p>
             F = Final I = Integrated N = Notion `The final feelings and
             thoughts` After that, so many people became aware of our pages. Both
@@ -27,8 +29,8 @@ const About = () => {
       </div>
 
       {/* team */}
-      <div className="team-img mb-[7%] w-full text-center uppercase md:mb-[5%] md:mt-[0]">
-        <h1 className="p-4 text-2xl font-bold md:text-4xl">team</h1>
+      <div className=" mb-[7%] w-full text-center uppercase md:mb-[5%] md:mt-[0]">
+        <h1 className="p-4 text-2xl font-bold md:text-[28px]">team</h1>
         <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:items-start">
           <div className="bg-white">
             <Image src={aniwat} width={300} height={300} alt="aniwat" />

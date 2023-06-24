@@ -42,23 +42,13 @@ const NavbarMain = () => {
       <nav className=" h-full flex-col items-center justify-between">
         <div className="flex h-full flex-col items-center ">
           <Link href="/">
-            <Image
-              src={Logo}
-              width={100}
-              height={100}
-              alt="logo"
-              className=""
-            />
+            <Image src={Logo} width={100} height={100} alt="logo" />
           </Link>
 
           <div className="flex gap-x-[7rem]">
             {links.map((link) => {
               return (
-                <Link
-                  key={link.id}
-                  href={link.url}
-                  className="text-md uppercase"
-                >
+                <Link key={link.id} href={link.url} className=" uppercase">
                   <span className="link link-underline link-underline-black">
                     {link.title}
                   </span>
