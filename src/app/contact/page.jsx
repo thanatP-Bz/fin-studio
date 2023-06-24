@@ -3,32 +3,16 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="mt-[5%] flex h-[100vh] w-screen flex-col items-center justify-center">
-        <div className="mt-[5%] flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:h-[70%]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15490.467505245035!2d100.438514310702!3d13.921833811271211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2857afab65b13%3A0xd9efdb3a1c55c3b9!2z4Liq4Lix4Lih4Lih4Liy4LiB4Lij!5e0!3m2!1sen!2sus!4v1687573549858!5m2!1sen!2sus"
-            className="mx-2 mb-[5%] h-full w-full md:mx-8 md:mb-[0]"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+      <div className="flex h-[100vh] w-screen items-center justify-center">
+        <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-0">
+          <div className="home-img flex h-[50%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
 
-        <div className=" flex h-[50%] w-full flex-col items-center justify-start gap-y-0 p-5 md:mt-[0] md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
-          <h1 className="text-2xl font-bold uppercase md:text-[28px]">
-            Contact
-          </h1>
-          <p>
-            FIN STUDIO ARCHITECT LIMITED
-            <br />
-            159/191 SAMMAKORN AVENUE CHAIYAPHRUEK-WONGWAEN, LAM PHO, BANG BUA
-            THONG DISTRICT, NONTHABURI 11110, THAILAND
-            <br />
-            T : 081 924 3132 , 080 125 1848 , 086 135 5715
-            <br />
-            FACEBOOK PAGE : Fin Studio Architect E :
-            finstudioarchitect@gmail.com
-          </p>
+          <div className="flex h-[50%] w-full max-w-[1000px] flex-col items-center justify-start gap-y-0 p-4 md:h-[100%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
+            <h1 className="text-2xl font-bold uppercase md:text-[28px]">
+              Welcome to Fin Studio
+            </h1>
+            <p>Modern Architectures, Interiors, Designs and Inspirations</p>
+          </div>
         </div>
       </div>
     </>
