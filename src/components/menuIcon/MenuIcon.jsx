@@ -9,7 +9,7 @@ const MenuIcon = ({ menuOpen, clickHandler }) => {
     <>
       {/* logo */}
       <Link href="/">
-        <Image src={Logo} width={50} height={50} alt="logo" />
+        <Image src={Logo} width={80} height={80} alt="logo" />
       </Link>
 
       {/* logo */}
