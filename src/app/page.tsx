@@ -3,12 +3,12 @@ import React from "react";
 const Homepage = () => {
   return (
     <>
-      <div className="flex h-[70vh] w-screen items-center justify-center md:h-[100vh]">
-        <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-0">
+      <div className="flex h-[70vh] w-screen items-center justify-center md:h-[90vh]">
+        <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-[5%]">
           <div className="home-img flex h-[70%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
         </div>
       </div>
-      <div className="flex h-[100%] w-full flex-col items-center justify-center gap-y-0 p-4 text-center md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
+      <div className="flex w-full flex-col items-center justify-center gap-y-0 p-4 text-center md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
         <h1 className="text-2xl font-bold uppercase md:text-[28px]">
           Welcome to Fin Studio
         </h1>

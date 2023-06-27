@@ -7,8 +7,8 @@ import kitwat from "../../../public/kitwat.png";
 const About = () => {
   return (
     <>
-      <div className="flex h-[70vh] w-screen items-center justify-center md:h-[100vh]">
-        <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-0">
+      <div className="flex h-[70vh] w-screen items-center justify-center md:h-[90vh]">
+        <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-[5%]">
           <div className="about-img flex h-[70%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
         </div>
       </div>
