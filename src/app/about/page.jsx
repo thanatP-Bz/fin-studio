@@ -13,10 +13,10 @@ const About = () => {
         </div>
       </div>
       <div className="mx-auto flex h-[100%] w-full max-w-[1350px] flex-col items-center justify-center gap-y-0 p-4 text-center md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
-        <h1 className="text-2xl font-bold uppercase md:text-[28px]">
+        <h1 className="p-4 text-xl font-bold uppercase md:text-4xl">
           Welcome to Fin Studio
         </h1>
-        <p>
+        <p className="text-md md:text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Error placeat
           ad perspiciatis inventore fugiat sint adipisci ipsam provident quas
           vero exercitationem quis atque voluptates facere, maxime molestias
@@ -29,7 +29,7 @@ const About = () => {
 
       {/* team */}
       <div className=" mb-[7%] w-full text-center uppercase md:mb-[5%] md:mt-[0]">
-        <h1 className=" p-8 text-xl font-bold md:text-4xl">studio team</h1>
+        <h1 className="p-8 text-xl font-bold md:text-4xl">studio team</h1>
         <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:items-start">
           <div className="flex flex-col gap-y-4 bg-white">
             <Image
