@@ -22,8 +22,8 @@ const links = [
   },
   {
     id: 4,
-    title: "news",
-    url: "/news",
+    title: "services",
+    url: "/services",
   },
   {
     id: 5,
