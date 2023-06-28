@@ -7,8 +7,8 @@ import kitwat from "../../../public/kitwat.png";
 const About = () => {
   return (
     <>
-      <div className="flex h-[70vh] w-screen items-center justify-center md:h-[90vh]">
-        <div className="mb-[10%] flex h-[100vh] w-screen flex-col items-center justify-center md:mb-[5%]">
+      <div className="flex h-[90vh] w-screen items-center justify-center">
+        <div className="mb-[10%] flex h-full w-screen flex-col items-center justify-center md:mb-0">
           <div className="about-img flex h-[70%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
         </div>
       </div>
@@ -34,7 +34,7 @@ const About = () => {
           <div className="flex flex-col gap-y-4 bg-white">
             <Image
               src={aniwat}
-              className="h-[300px] w-[300px] md:h-[400px] md:w-[400px]"
+              className="h-[300px] w-[300px] object-cover md:h-[400px] md:w-[400px]"
               alt="aniwat"
             />
 
@@ -42,10 +42,10 @@ const About = () => {
             <p className="text-md md:text-xl ">Founder / Architect</p>
           </div>
 
-          <div className=" flex flex-col  gap-y-4 bg-white">
+          <div className=" flex flex-col  gap-y-4 bg-white ">
             <Image
               src={kitwat}
-              className="h-[300px] w-[300px] md:h-[400px] md:w-[400px]"
+              className="h-[300px] w-[300px] object-cover md:h-[400px] md:w-[400px]"
               alt="kitwat"
             />
             <h1 className="text-xl font-bold md:text-2xl">Kitwat Thasee</h1>
@@ -55,7 +55,7 @@ const About = () => {
           <div className="flex flex-col gap-y-4 bg-white">
             <Image
               src={kamphon}
-              className="h-[300px] w-[300px] md:h-[400px] md:w-[400px]"
+              className="h-[300px] w-[300px] object-cover md:h-[400px] md:w-[400px]"
               alt="kamphon"
             />
 

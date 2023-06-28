@@ -12,14 +12,20 @@ const Contact = () => {
                   <h1 className=" text-xl font-bold uppercase md:p-2 md:text-4xl">
                     Contact
                   </h1>
-                  <p>
+                  <p className="text-md md:text-xl">
                     FIN STUDIO ARCHITECT LIMITED 159/191 SAMMAKORN AVENUE
                     CHAIYAPHRUEK-WONGWAEN, LAM PHO, BANG BUA THONG DISTRICT,
                     NONTHABURI 11110, THAILAND
                   </p>
-                  <p>T : 081 924 3132 , 080 125 1848 , 086 135 5715</p>
-                  <p>FACEBOOK PAGE : Fin Studio Architect</p>
-                  <p>E : finstudioarchitect@gmail.com</p>
+                  <p className="text-md md:text-xl">
+                    T : 081 924 3132 , 080 125 1848 , 086 135 5715
+                  </p>
+                  <p className="text-md md:text-xl">
+                    FACEBOOK PAGE : Fin Studio Architect
+                  </p>
+                  <p className="text-md md:text-xl">
+                    E : finstudioarchitect@gmail.com
+                  </p>
                 </div>
               </div>
             </div>
