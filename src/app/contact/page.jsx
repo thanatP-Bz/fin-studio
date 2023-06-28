@@ -19,15 +19,14 @@ const Contact = () => {
                     159/191 SAMMAKORN AVENUE CHAIYAPHRUEK-WONGWAEN, LAM PHO,
                     BANG BUA THONG DISTRICT, NONTHABURI 11110, THAILAND
                   </p>
-                  <p className="text-md md:text-xl">
-                    T : 081 924 3132 , 080 125 1848 , 086 135 5715
-                  </p>
-                  <p className="text-md md:text-xl">
-                    FACEBOOK PAGE : Fin Studio Architect
-                  </p>
-                  <p className="text-md md:text-xl">
-                    E : finstudioarchitect@gmail.com
-                  </p>
+                  <div className="text-md md:text-xl">
+                    <span className="font-bold uppercase">T</span>: 081 924 3132
+                    ,080 125 1848, 086 135 5715 <br />
+                    <span className="font-bold uppercase">F</span>: Fin Studio
+                    Architect <br />
+                    <span className="font-bold uppercase">E</span>:
+                    finstudioarchitect@gmail.com
+                  </div>
                 </div>
               </div>
             </div>
