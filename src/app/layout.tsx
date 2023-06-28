@@ -2,9 +2,9 @@ import "./globals.css";
 import NavbarMain from "../components/navbar/NavbarMain";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
-import { Orbitron } from "next/font/google";
+import { Text_Me_One } from "next/font/google";
 
-const inter = Orbitron({ subsets: ["latin"], weight: "400" });
+const inter = Text_Me_One({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Fin Studio Architect",
