@@ -12,7 +12,7 @@ const About = () => {
           <div className="about-img flex h-[70%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]"></div>
         </div>
       </div>
-      <div className="mx-auto flex h-[100%] w-full max-w-[1350px] flex-col items-center justify-center gap-y-0 p-4 text-center md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
+      <div className="mx-auto flex h-[100%] w-full max-w-[1200px] flex-col items-center justify-center gap-y-0 p-4 text-center md:h-[70%] md:justify-center md:gap-x-4 md:gap-y-6 md:p-10">
         <h1 className="p-4 text-xl font-bold uppercase md:text-4xl">
           Welcome to Fin Studio
         </h1>
@@ -30,11 +30,11 @@ const About = () => {
       {/* team */}
       <div className=" mb-[7%] w-full text-center uppercase md:mb-[5%] md:mt-[0]">
         <h1 className="p-8 text-xl font-bold md:text-4xl">studio team</h1>
-        <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:items-start">
+        <div className="flex flex-col items-center justify-center md:flex-row md:items-start">
           <div className="flex flex-col gap-y-4 bg-white">
             <Image
               src={aniwat}
-              className="h-[300px] w-[300px] object-cover md:h-[400px] md:w-[400px]"
+              className=" h-[300px] w-[300px] object-contain md:h-[400px] md:w-[400px]"
               alt="aniwat"
             />
 
@@ -45,7 +45,7 @@ const About = () => {
           <div className=" flex flex-col  gap-y-4 bg-white ">
             <Image
               src={kitwat}
-              className="h-[300px] w-[300px] object-cover md:h-[400px] md:w-[400px]"
+              className="h-[300px] w-[300px] object-contain md:h-[400px] md:w-[400px]"
               alt="kitwat"
             />
             <h1 className="text-xl font-bold md:text-2xl">Kitwat Thasee</h1>
@@ -55,7 +55,7 @@ const About = () => {
           <div className="flex flex-col gap-y-4 bg-white">
             <Image
               src={kamphon}
-              className="h-[300px] w-[300px] object-cover md:h-[400px] md:w-[400px]"
+              className="h-[300px] w-[300px] object-contain md:h-[400px] md:w-[400px]"
               alt="kamphon"
             />
 

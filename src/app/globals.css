@@ -71,7 +71,7 @@ body {
 
 .about-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
-    url(../../public/team.jpg);
+    url(../../public/about.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
