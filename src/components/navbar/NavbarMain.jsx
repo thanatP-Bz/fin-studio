@@ -22,7 +22,7 @@ const links = [
   {
     id: 4,
     title: "fin contest",
-    url: "/contact",
+    url: "/contest",
   },
 
   {

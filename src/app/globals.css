@@ -77,6 +77,12 @@ body {
   background-size: cover;
 }
 
+.contest-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../../public/fin-contest.jpg);
+  background-position: center;
+}
+
 .about-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url(../../public/about.jpg);
@@ -93,4 +99,8 @@ body {
 
 .footer-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
 }

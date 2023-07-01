@@ -29,7 +29,7 @@ const services = () => {
       <div className="mx-auto mb-4 grid w-screen max-w-[1400px] grid-cols-1 items-center gap-4 px-6 text-center md:grid-cols-3 md:px-0">
         <div className="p-4">
           <span className="flex w-full items-center justify-center ">
-            <MdOutlineArchitecture className="text-3xl md:text-6xl" />
+            <MdOutlineArchitecture className="text-4xl md:text-6xl" />
           </span>
           <h1 className="p-4 text-xl font-bold uppercase md:text-2xl">
             Architecture
@@ -44,7 +44,7 @@ const services = () => {
 
         <div className="p-4">
           <span className="flex w-full items-center justify-center">
-            <MdBedroomParent className="text-3xl md:text-6xl" />
+            <MdBedroomParent className="text-4xl md:text-6xl" />
           </span>
           <h1 className="p-4 text-xl font-bold uppercase md:text-2xl">
             interior
@@ -58,7 +58,7 @@ const services = () => {
         </div>
         <div className="p-4">
           <span className="flex w-full items-center justify-center">
-            <CgTrees className="text-3xl md:text-6xl" />
+            <CgTrees className="text-4xl md:text-6xl" />
           </span>
           <h1 className="p-4 text-xl font-bold uppercase md:text-2xl">
             landscape
@@ -73,7 +73,7 @@ const services = () => {
 
         <div className="p-4">
           <span className="flex w-full items-center justify-center">
-            <RiTeamFill className="text-3xl md:text-6xl" />
+            <RiTeamFill className="text-4xl md:text-6xl" />
           </span>
           <h1 className="p-4 text-xl font-bold uppercase md:text-2xl">
             consult
@@ -88,7 +88,7 @@ const services = () => {
 
         <div className="p-4">
           <span className="flex w-full items-center justify-center">
-            <BsBoxes className="text-3xl md:text-6xl" />
+            <BsBoxes className="text-4xl md:text-6xl" />
           </span>
           <h1 className="p-4 text-xl font-bold uppercase md:text-2xl">
             3D model
