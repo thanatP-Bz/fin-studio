@@ -10,47 +10,75 @@ import fin6 from "../../../public/fin-contest-6.jpg";
 const contest = () => {
   return (
     <>
-      <div className="mx-auto my-[5%] grid h-full w-full max-w-[1200px] grid-cols-2 gap-2">
-        <div className="relative cursor-pointer">
-          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-            <h1 className="text-4xl uppercase">fin contest 1</h1>
+      <div className="mx-auto my-[5%] w-full max-w-[1200px] overflow-hidden">
+        <div className="grid grid-cols-[repeat(4,1fr)] gap-4">
+          <div className="relative col-start-1 col-end-3 h-full w-full cursor-pointer">
+            <div class="absolute inset-0 z-10 flex items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="text-4xl uppercase">fin contest 1</h1>
+            </div>
+            <div className="h-full w-full bg-red-200">
+              <Image
+                src={fin1}
+                alt="fin-1"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
-          <Image src={fin1} className="h-full w-full" alt="fin-2" />
-        </div>
 
-        <div className="relative cursor-pointer">
-          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-            <h1 className="text-4xl uppercase">fin contest 2</h1>
+          <div className="relative col-start-3 col-end-5 cursor-pointer ">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="text-4xl uppercase">fin contest 2</h1>
+            </div>
+            <Image
+              src={fin2}
+              className="h-full w-full object-cover"
+              alt="fin-2"
+            />
           </div>
-          <Image src={fin2} className="h-full w-full" alt="fin-2" />
-        </div>
 
-        <div className="relative cursor-pointer">
-          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-            <h1 className="text-4xl uppercase">fin contest 3</h1>
+          <div className="relative cursor-pointer">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="text-4xl uppercase">fin contest 3</h1>
+            </div>
+            <Image
+              src={fin3}
+              className="h-full w-full object-cover"
+              alt="fin-3"
+            />
           </div>
-          <Image src={fin3} className="h-full w-full" alt="fin-3" />
-        </div>
 
-        <div className="relative cursor-pointer">
-          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-            <h1 className="text-4xl uppercase">fin contest 4</h1>
+          <div className="relative cursor-pointer">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="text-4xl uppercase">fin contest 4</h1>
+            </div>
+            <Image
+              src={fin4}
+              className="h-full w-full object-cover"
+              alt="fin-4"
+            />
           </div>
-          <Image src={fin4} className="h-full w-full" alt="fin-4" />
-        </div>
 
-        <div className="relative cursor-pointer">
-          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-            <h1 className="text-4xl uppercase">fin contest 5</h1>
+          <div className="relative cursor-pointer">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="text-4xl uppercase">fin contest 5</h1>
+            </div>
+            <Image
+              src={fin5}
+              className="h-full w-full object-cover"
+              alt="fin-5"
+            />
           </div>
-          <Image src={fin5} className="h-full w-full" alt="fin-5" />
-        </div>
 
-        <div className="relative cursor-pointer">
-          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-            <h1 className="text-4xl uppercase">fin contest 6</h1>
+          <div className="relative  cursor-pointer">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="text-4xl uppercase">fin contest 6</h1>
+            </div>
+            <Image
+              src={fin6}
+              className="h-full w-full object-cover "
+              alt="fin-6"
+            />
           </div>
-          <Image src={fin6} className="h-full w-full" alt="fin-6" />
         </div>
       </div>
     </>
