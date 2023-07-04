@@ -10,7 +10,7 @@ import fin6 from "../../../public/fin-contest-6.jpg";
 const contest = () => {
   return (
     <>
-      <div className="mx-auto my-[5%] grid h-full w-full max-w-[1200px] grid-cols-3 gap-2">
+      <div className="mx-auto my-[5%] grid h-full w-full max-w-[1200px] grid-cols-2 gap-2">
         <div className="relative cursor-pointer">
           <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
             <h1 className="text-4xl uppercase">fin contest 1</h1>
