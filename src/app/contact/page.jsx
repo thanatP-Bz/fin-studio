@@ -29,12 +29,12 @@ const Contact = () => {
             : 081 924 3132, 080 125 1848, 086 135 5715
           </span>
 
-          <span className="flex md:mb-2 ">
+          <span className="flex uppercase md:mb-2">
             <BsFacebook className="mb-1 mr-1 text-xl text-blue-500 md:text-3xl" />
             : Fin Studio Architect
           </span>
 
-          <span className="flex md:mb-2 ">
+          <span className="flex uppercase md:mb-2">
             <MdMarkEmailUnread className="mb-1 mr-1 text-xl text-cyan-500 md:text-3xl" />
             : finstudioarchitect@gmail.com
           </span>
