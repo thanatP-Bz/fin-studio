@@ -47,7 +47,6 @@ body {
 .main-container {
   position: relative;
   min-height: 100vh;
-  max-width: 100%;
   width: 100%;
   margin: 0;
   display: flex;
@@ -79,8 +78,10 @@ body {
 
 .contest-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
-    url(../../public/fin-contest.jpg);
+    url(../../public/contest.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-img {
