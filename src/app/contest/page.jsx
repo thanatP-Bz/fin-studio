@@ -10,11 +10,13 @@ import fin6 from "../../../public/fin-contest-6.jpg";
 const contest = () => {
   return (
     <>
-      <div className="mx-auto my-[5%] w-full max-w-[1200px] overflow-hidden">
-        <div className="grid grid-cols-[repeat(4,1fr)] gap-4">
-          <div className="relative col-start-1 col-end-3 h-full w-full cursor-pointer">
-            <div class="absolute inset-0 z-10 flex items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-              <h1 className="text-4xl uppercase">fin contest 1</h1>
+      <div className="mx-auto my-[5%] w-full max-w-[1200px] overflow-hidden px-4 ">
+        <div className="md:grid-row-auto grid-rows-[repeat(1,16.6%))] grid h-[100%] gap-4 md:grid-cols-[repeat(4,1fr)]">
+          <div className="relative h-full w-full cursor-pointer md:col-start-1 md:col-end-3">
+            <div class="absolute inset-0 z-10 flex items-center justify-center bg-black bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="z-20 text-sm font-bold uppercase text-white md:text-2xl">
+                fin contest 1
+              </h1>
             </div>
             <div className="h-full w-full bg-red-200">
               <Image
@@ -25,9 +27,11 @@ const contest = () => {
             </div>
           </div>
 
-          <div className="relative col-start-3 col-end-5 cursor-pointer ">
-            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-              <h1 className="text-4xl uppercase">fin contest 2</h1>
+          <div className="relative cursor-pointer md:col-start-3 md:col-end-5 ">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="z-20 text-2xl font-bold uppercase text-white">
+                fin contest 2
+              </h1>
             </div>
             <Image
               src={fin2}
@@ -37,8 +41,10 @@ const contest = () => {
           </div>
 
           <div className="relative cursor-pointer">
-            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-              <h1 className="text-4xl uppercase">fin contest 3</h1>
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="z-20 text-2xl font-bold uppercase text-white">
+                fin contest 3
+              </h1>
             </div>
             <Image
               src={fin3}
@@ -48,8 +54,10 @@ const contest = () => {
           </div>
 
           <div className="relative cursor-pointer">
-            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-              <h1 className="text-4xl uppercase">fin contest 4</h1>
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="z-20 text-2xl font-bold uppercase text-white">
+                fin contest 4
+              </h1>
             </div>
             <Image
               src={fin4}
@@ -58,9 +66,11 @@ const contest = () => {
             />
           </div>
 
-          <div className="relative cursor-pointer">
-            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-              <h1 className="text-4xl uppercase">fin contest 5</h1>
+          <div className="relative cursor-pointer bg-red-400 md:h-full">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="z-20 text-2xl font-bold uppercase text-white">
+                fin contest 5
+              </h1>
             </div>
             <Image
               src={fin5}
@@ -69,9 +79,11 @@ const contest = () => {
             />
           </div>
 
-          <div className="relative  cursor-pointer">
-            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
-              <h1 className="text-4xl uppercase">fin contest 6</h1>
+          <div className="relative cursor-pointer md:h-full">
+            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black bg-opacity-90 text-center opacity-0 duration-200 hover:opacity-70">
+              <h1 className="z-20 text-2xl font-bold uppercase text-white">
+                fin contest 6
+              </h1>
             </div>
             <Image
               src={fin6}
