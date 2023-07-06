@@ -37,6 +37,53 @@ const links = [
   },
 ];
 
+const contestLinks = [
+  {
+    id: 1,
+    title: "contest-1",
+    url: "/contest-1",
+  },
+  {
+    id: 2,
+    title: "contest-2",
+    url: "/contest-2",
+  },
+  {
+    id: 3,
+    title: "contest-3",
+    url: "/contest-3",
+  },
+  {
+    id: 4,
+    title: "contest-4",
+    url: "contest-4",
+  },
+
+  {
+    id: 5,
+    title: "contest-5",
+    url: "/contest-5",
+  },
+  {
+    id: 6,
+    title: "contest-6",
+    url: "/contest-6",
+  },
+];
+
+const contestSubLinks = [
+  {
+    id: 1,
+    title: "professional",
+    url: "/professional",
+  },
+  {
+    id: 2,
+    title: "student",
+    url: "/student",
+  },
+];
+
 const NavbarMain = () => {
   return (
     <div className="fixed left-0 z-30 hidden w-full bg-white pb-2  md:block">
@@ -52,20 +99,39 @@ const NavbarMain = () => {
             />
           </Link>
 
-          <div className="mt-2 flex w-full max-w-[1400px] items-center justify-between">
-            {links.map((link) => {
-              return (
-                <Link
-                  key={link.id}
-                  href={link.url}
-                  className=" text-xl uppercase"
-                >
-                  <span className="link link-underline link-underline-black">
-                    {link.title}
-                  </span>
-                </Link>
-              );
-            })}
+          <div className="relative mt-2 flex w-full max-w-[1400px] items-center justify-between">
+            <Link href="#">home</Link>
+            <Link href="#">home</Link>
+            <Link href="#">home</Link>
+            <Link href="#">home</Link>
+            <Link href="#">home</Link>
+            <Link href="#">home</Link>
+
+            {/* dropdown1 */}
+            <div className="absolute left-[57%] top-8 bg-white p-2 shadow-md">
+              {contestLinks.map((link) => {
+                return (
+                  <div key={link.id} className="bg-red-200 px-6 py-1">
+                    <Link href={link.url} className="z-10">
+                      {link.title}
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* dropdown2 */}
+            <div className="absolute left-[67%] top-40 bg-white p-2 shadow-md">
+              {contestSubLinks.map((link) => {
+                return (
+                  <div key={link.id} className="bg-red-200 px-6 py-1">
+                    <Link href={link.url} className="z-10">
+                      {link.title}
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </nav>
