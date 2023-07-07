@@ -3,7 +3,7 @@ import React from "react";
 const Homepage = () => {
   return (
     <>
-      <div className="flex h-[90vh] items-center justify-center">
+      <div className="flex h-[95vh] items-center justify-center">
         <div className="mb-[10%] flex h-full w-full flex-col items-center justify-center md:mb-0">
           <div className="home-img flex h-[90%] w-full items-center justify-center overflow-hidden bg-cover md:mt-[7%] md:h-[100%]">
             <div className="flex h-full w-full items-center justify-center text-center uppercase text-white ">
