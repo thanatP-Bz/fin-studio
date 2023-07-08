@@ -111,3 +111,7 @@ body {
 .contest-container {
   grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
 }
+
+.dropdown {
+  display: block;
+}

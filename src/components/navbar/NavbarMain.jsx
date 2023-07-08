@@ -43,43 +43,35 @@ const NavbarMain = () => {
             <Link href="/works">works</Link>
             <Link href="/contest" className="flex gap-2">
               fins contest
-              <AiOutlineDown className="mt-1" onClick={() => setOpen(!open)} />
+              <AiOutlineDown className="hover:dropdown:hidden mt-1" />
             </Link>
             <Link href="/about">about</Link>
             <Link href="/contact">contact</Link>
 
             {/* dropdown1 */}
-            {open ? (
-              <div className="absolute left-[57%] top-8 bg-white p-2 shadow-md">
-                <div className="flex flex-col  px-4">
-                  <Link href="contest-1" className="p-1">
-                    contest-1
-                  </Link>
-                  <Link href="contest-2" className="p-1">
-                    contest-2
-                  </Link>
-                  <Link href="contest-3" className="p-1">
-                    contest-3
-                  </Link>
-                  <Link href="contest-4" className="p-1">
-                    contest-4
-                  </Link>
-                  <Link href="contest-5" className="p-1">
-                    contest-5
-                  </Link>
-                  <Link
-                    href="contest-6"
-                    className="p-1"
-                    onMouseEnter={() => setOpenSubContest(true)}
-                    onMouseLeave={() => setOpenSubContest(false)}
-                  >
-                    contest-6
-                  </Link>
-                </div>
+
+            <div className="absolute left-[57%] top-8 bg-white p-2 shadow-md">
+              <div className="flex flex-col  px-4">
+                <Link href="contest-1" className="p-1">
+                  contest-1
+                </Link>
+                <Link href="contest-2" className="p-1">
+                  contest-2
+                </Link>
+                <Link href="contest-3" className="p-1">
+                  contest-3
+                </Link>
+                <Link href="contest-4" className="p-1">
+                  contest-4
+                </Link>
+                <Link href="contest-5" className="p-1">
+                  contest-5
+                </Link>
+                <Link href="contest-6" className="p-1">
+                  contest-6
+                </Link>
               </div>
-            ) : (
-              ""
-            )}
+            </div>
 
             {/* dropdown2 */}
             {openSubContest ? (
