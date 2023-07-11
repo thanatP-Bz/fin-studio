@@ -37,41 +37,24 @@ const NavbarMain = () => {
             />
           </Link>
 
-          <div className="relative mt-2 flex w-full max-w-[1400px] items-center justify-between uppercase">
+          <div className="relative mt-2 flex w-full max-w-[1400px] items-center justify-between px-8 uppercase">
             <Link href="/">home</Link>
             <Link href="/services">services</Link>
             <Link href="/works">works</Link>
-            <Link href="/contest" className="flex gap-2">
+
+            <div className="group flex gap-2">
               fins contest
-              <AiOutlineDown className="hover:dropdown:hidden mt-1" />
-            </Link>
+              <AiOutlineDown className="mt-1" />
+              {/* dropdown1 */}
+              <ul>
+                <li>
+                  <Link href="#"></Link>
+                </li>
+              </ul>
+            </div>
+
             <Link href="/about">about</Link>
             <Link href="/contact">contact</Link>
-
-            {/* dropdown1 */}
-
-            <div className="absolute left-[57%] top-8 bg-white p-2 shadow-md">
-              <div className="flex flex-col  px-4">
-                <Link href="contest-1" className="p-1">
-                  contest-1
-                </Link>
-                <Link href="contest-2" className="p-1">
-                  contest-2
-                </Link>
-                <Link href="contest-3" className="p-1">
-                  contest-3
-                </Link>
-                <Link href="contest-4" className="p-1">
-                  contest-4
-                </Link>
-                <Link href="contest-5" className="p-1">
-                  contest-5
-                </Link>
-                <Link href="contest-6" className="p-1">
-                  contest-6
-                </Link>
-              </div>
-            </div>
 
             {/* dropdown2 */}
             {openSubContest ? (
