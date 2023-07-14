@@ -112,6 +112,7 @@ body {
   grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
 }
 
-.dropdown {
+/* dropdown */
+.dropdown:hover > .dropdown-content {
   display: block;
 }
