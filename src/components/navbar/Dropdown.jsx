@@ -42,7 +42,7 @@ const Dropdown = () => {
             class="whitespace-no-wrap block bg-gray-200 py-2 pl-8 hover:bg-gray-400"
             href="#"
           >
-            Contesl-8
+            Contest 4
           </Link>
         </li>
         <li>
