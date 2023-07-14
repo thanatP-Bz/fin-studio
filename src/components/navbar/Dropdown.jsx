@@ -16,7 +16,7 @@ const Dropdown = () => {
         <li>
           <Link
             class="whitespace-no-wrap flex bg-gray-200 py-1 pl-8 hover:bg-gray-400"
-            href="#"
+            href="/contest/contest-1"
           >
             Contest 1
           </Link>
@@ -24,7 +24,7 @@ const Dropdown = () => {
         <li>
           <Link
             class="whitespace-no-wrap block bg-gray-200 py-2 pl-8 hover:bg-gray-400"
-            href="#"
+            href="/contest/contest-2"
           >
             Contest 2
           </Link>
@@ -32,7 +32,7 @@ const Dropdown = () => {
         <li>
           <Link
             class="whitespace-no-wrap block bg-gray-200 py-2 pl-8 hover:bg-gray-400"
-            href="#"
+            href="/contest/contest-3"
           >
             Contest 3
           </Link>
@@ -40,7 +40,7 @@ const Dropdown = () => {
         <li>
           <Link
             class="whitespace-no-wrap block bg-gray-200 py-2 pl-8 hover:bg-gray-400"
-            href="#"
+            href="/contest/contest-4"
           >
             Contest 4
           </Link>
@@ -48,17 +48,17 @@ const Dropdown = () => {
         <li>
           <Link
             class="whitespace-no-wrap block bg-gray-200 py-2 pl-8 hover:bg-gray-400"
-            href="#"
+            href="/contest/contest-5"
           >
             Contest 5
           </Link>
         </li>
 
-        <li className="dropdown">
+        <div className="dropdown">
           <li>
             <Link
               class="whitespace-no-wrap flex bg-gray-200 py-1 pl-8 hover:bg-gray-400"
-              href="#"
+              href="/contest/contest-6"
             >
               Contest 6 <AiOutlineRight className="mt-1" />
             </Link>
@@ -66,7 +66,7 @@ const Dropdown = () => {
           <ul className="dropdown-content absolute -mt-10 ml-36 hidden text-gray-700">
             <li>
               <Link
-                href="#"
+                href="/contest/contest-6/professional"
                 className="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-gray-400"
               >
                 Professional
@@ -74,14 +74,14 @@ const Dropdown = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/contest/contest-6/student"
                 className="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-gray-400"
               >
                 Student
               </Link>
             </li>
           </ul>
-        </li>
+        </div>
       </ul>
     </div>
   );
