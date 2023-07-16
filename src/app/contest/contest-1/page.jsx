@@ -13,34 +13,68 @@ import nine from "../../../../public/contest-1/9.jpg";
 const ContestOne = () => {
   return (
     <div className="mt-4">
-      <h1 className="text-center text-2xl font-bold uppercase">contest 1</h1>
+      <h1 className="p-10 text-center text-2xl font-bold uppercase">
+        contest 1
+      </h1>
 
       {/* pictures */}
-      <div className="mx-auto grid h-full w-full max-w-[1400px] grid-cols-4 items-center px-8">
+      <div className="mx-auto grid h-full w-full max-w-[1400px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-4 px-8">
         <div>
-          <Image src={one} alt="contest-1" />
+          <Image
+            src={one}
+            alt="contest-1"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
         <div>
-          <Image src={two} alt="contest-2" />
+          <Image
+            src={two}
+            alt="contest-2"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
         <div>
-          <Image src={three} alt="contest-3" />
+          <Image
+            src={three}
+            alt="contest-3"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
         <div>
-          <Image src={four} alt="contest-4" />
+          <Image
+            src={four}
+            alt="contest-4"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
         <div>
-          <Image src={five} alt="contest-5" />
+          <Image
+            src={five}
+            alt="contest-5"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
         <div>
-          <Image src={six} alt="contest-6" />
+          <Image
+            src={six}
+            alt="contest-6"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
 
         <div>
-          <Image src={eight} alt="contest-8" />
+          <Image
+            src={eight}
+            alt="contest-8"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
         <div>
-          <Image src={nine} alt="contest-9" />
+          <Image
+            src={nine}
+            alt="contest-9"
+            className="h-[300px] w-full object-cover"
+          />
         </div>
       </div>
     </div>
