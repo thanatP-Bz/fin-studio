@@ -1,26 +1,26 @@
 import React from "react";
 import Image from "next/image";
 
-import one from "../../../../public/contest-2/1 (1).jpg";
-import two from "../../../../public/contest-2/1 (2).jpg";
-import three from "../../../../public/contest-2/1 (3).jpg";
-import four from "../../../../public/contest-2/1 (4).jpg";
-import five from "../../../../public/contest-2/1 (5).jpg";
-import six from "../../../../public/contest-2/1 (6).jpg";
-import seven from "../../../../public/contest-2/1 (7).jpg";
-import eight from "../../../../public/contest-2/1 (8).jpg";
-import nine from "../../../../public/contest-2/1 (9).jpg";
-import ten from "../../../../public/contest-2/1 (10).jpg";
-import eleven from "../../../../public/contest-2/1 (11).jpg";
-import twelve from "../../../../public/contest-2/1 (12).jpg";
-import thirteen from "../../../../public/contest-1/1.jpg";
-import fourteen from "../../../../public/contest-1/1.jpg";
-import fifteen from "../../../../public/contest-1/1.jpg";
-import sixteen from "../../../../public/contest-1/1.jpg";
-import sventeen from "../../../../public/contest-1/1.jpg";
-import eighteen from "../../../../public/contest-1/1.jpg";
-import nineteen from "../../../../public/contest-1/1.jpg";
-import twenty from "../../../../public/contest-1/1.jpg";
+import one from "../../../../public/contest-2/1.jpg";
+import two from "../../../../public/contest-2/2.jpg";
+import three from "../../../../public/contest-2/3.jpg";
+import four from "../../../../public/contest-2/4.jpg";
+import five from "../../../../public/contest-2/5.jpg";
+import six from "../../../../public/contest-2/6.jpg";
+import seven from "../../../../public/contest-2/7.jpg";
+import eight from "../../../../public/contest-2/8.jpg";
+import nine from "../../../../public/contest-2/9.jpg";
+import ten from "../../../../public/contest-2/11.jpg";
+import eleven from "../../../../public/contest-2/11.jpg";
+import twelve from "../../../../public/contest-2/12.jpg";
+import thirteen from "../../../../public/contest-2/13.jpg";
+import fourteen from "../../../../public/contest-2/14.jpg";
+import fifteen from "../../../../public/contest-2/15.jpg";
+import sixteen from "../../../../public/contest-2/16.jpg";
+import sventeen from "../../../../public/contest-2/17.jpg";
+import eighteen from "../../../../public/contest-2/18.jpg";
+import nineteen from "../../../../public/contest-2/19.jpg";
+import twenty from "../../../../public/contest-2/20.jpg";
 
 const ContestTwo = () => {
   return (
