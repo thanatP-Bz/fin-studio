@@ -10,7 +10,7 @@ import six from "../../../../public/contest-2/6.jpg";
 import seven from "../../../../public/contest-2/7.jpg";
 import eight from "../../../../public/contest-2/8.jpg";
 import nine from "../../../../public/contest-2/9.jpg";
-import ten from "../../../../public/contest-2/11.jpg";
+import ten from "../../../../public/contest-2/10.jpg";
 import eleven from "../../../../public/contest-2/11.jpg";
 import twelve from "../../../../public/contest-2/12.jpg";
 import thirteen from "../../../../public/contest-2/13.jpg";
@@ -22,6 +22,12 @@ import eighteen from "../../../../public/contest-2/18.jpg";
 import nineteen from "../../../../public/contest-2/19.jpg";
 import twenty from "../../../../public/contest-2/20.jpg";
 import twentyOne from "../../../../public/contest-2/21.jpg";
+import twentyTwo from "../../../../public/contest-2/22.jpg";
+import twentyThree from "../../../../public/contest-2/23.jpg";
+import twentyFour from "../../../../public/contest-2/24.jpg";
+import twentyFive from "../../../../public/contest-2/25.jpg";
+import twentySix from "../../../../public/contest-2/26.jpg";
+import twentySeven from "../../../../public/contest-2/27.jpg";
 
 const ContestTwo = () => {
   return (
@@ -177,6 +183,48 @@ const ContestTwo = () => {
           <Image
             src={twentyOne}
             alt="contest-21"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentyTwo}
+            alt="contest-22"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentyThree}
+            alt="contest-23"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentyFour}
+            alt="contest-24"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentyFive}
+            alt="contest-25"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentySix}
+            alt="contest-26"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentySeven}
+            alt="contest-27"
             className="h-[300px] w-full cursor-pointer object-cover"
           />
         </div>
