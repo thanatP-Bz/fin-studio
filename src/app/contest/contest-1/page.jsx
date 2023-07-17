@@ -12,7 +12,7 @@ import nine from "../../../../public/contest-1/9.jpg";
 
 const ContestOne = () => {
   return (
-    <div className="mt-4">
+    <div className="my-4">
       <h1 className="p-10 text-center text-2xl font-bold uppercase">
         contest 1
       </h1>

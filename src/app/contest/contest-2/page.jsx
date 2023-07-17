@@ -25,7 +25,7 @@ import twentyOne from "../../../../public/contest-2/21.jpg";
 
 const ContestTwo = () => {
   return (
-    <div className="mt-4">
+    <div className="my-4">
       <h1 className="p-10 text-center text-2xl font-bold uppercase">
         contest 2
       </h1>
