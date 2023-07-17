@@ -17,10 +17,11 @@ import thirteen from "../../../../public/contest-2/13.jpg";
 import fourteen from "../../../../public/contest-2/14.jpg";
 import fifteen from "../../../../public/contest-2/15.jpg";
 import sixteen from "../../../../public/contest-2/16.jpg";
-import sventeen from "../../../../public/contest-2/17.jpg";
+import seventeen from "../../../../public/contest-2/17.jpg";
 import eighteen from "../../../../public/contest-2/18.jpg";
 import nineteen from "../../../../public/contest-2/19.jpg";
 import twenty from "../../../../public/contest-2/20.jpg";
+import twentyOne from "../../../../public/contest-2/21.jpg";
 
 const ContestTwo = () => {
   return (
@@ -113,6 +114,69 @@ const ContestTwo = () => {
           <Image
             src={twelve}
             alt="contest-12"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={thirteen}
+            alt="contest-13"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={fourteen}
+            alt="contest-14"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={fifteen}
+            alt="contest-15"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={sixteen}
+            alt="contest-16"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={seventeen}
+            alt="contest-17"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={eighteen}
+            alt="contest-18"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={nineteen}
+            alt="contest-19"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twenty}
+            alt="contest-20"
+            className="h-[300px] w-full cursor-pointer object-cover"
+          />
+        </div>
+        <div>
+          <Image
+            src={twentyOne}
+            alt="contest-21"
             className="h-[300px] w-full cursor-pointer object-cover"
           />
         </div>
