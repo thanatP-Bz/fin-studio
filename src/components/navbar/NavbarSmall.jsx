@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const NavbarSmall = ({ links, clickHandler }) => {
   return (
-    <div className="flex h-screen w-screen flex-col justify-between text-white">
+    <div className="flex h-screen w-full flex-col justify-between text-white">
       <div className="no-highlight container relative h-full translate-x-0 flex-col items-end justify-center gap-y-5 text-2xl transition-all duration-700 ease-in-out ">
         {links.map((link) => {
           return (

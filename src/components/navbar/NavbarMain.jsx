@@ -33,7 +33,7 @@ const NavbarMain = () => {
             />
           </Link>
 
-          <div className="relative mt-2 flex w-full max-w-[1400px] items-center justify-between px-8 uppercase">
+          <div className="relative mt-2 flex w-full max-w-[1200px] items-center justify-between px-8 uppercase">
             <Link href="/" className="link-underline-black link-underline">
               home
             </Link>

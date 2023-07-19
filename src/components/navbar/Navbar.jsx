@@ -56,7 +56,7 @@ const Navbar = () => {
         <div
           className={
             menuOpen
-              ? `absolute bottom-0 left-0 right-0 top-0 h-screen  bg-black/80 transition-all duration-700 ease-in-out`
+              ? `absolute bottom-0 left-0 right-0 top-0 h-screen bg-black/80 transition-all duration-700 ease-in-out`
               : " absolute bottom-0 left-[1300px] right-0  top-0 h-screen transition-all duration-700 ease-in-out"
           }
         >
