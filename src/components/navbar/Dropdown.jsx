@@ -15,7 +15,7 @@ const Dropdown = () => {
       <ul className="dropdown-content absolute hidden w-full pt-1 text-gray-700">
         <li>
           <Link
-            class="whitespace-no-wrap flex bg-gray-100 py-1 pl-8 hover:bg-gray-200"
+            className="whitespace-no-wrap flex bg-gray-100 py-1 pl-8 hover:bg-gray-200"
             href="/contest/contest-1"
           >
             Contest 1
@@ -23,7 +23,7 @@ const Dropdown = () => {
         </li>
         <li>
           <Link
-            class="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
+            className="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
             href="/contest/contest-2"
           >
             Contest 2
@@ -31,7 +31,7 @@ const Dropdown = () => {
         </li>
         <li>
           <Link
-            class="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
+            className="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
             href="/contest/contest-3"
           >
             Contest 3
@@ -39,7 +39,7 @@ const Dropdown = () => {
         </li>
         <li>
           <Link
-            class="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
+            className="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
             href="/contest/contest-4"
           >
             Contest 4
@@ -47,7 +47,7 @@ const Dropdown = () => {
         </li>
         <li>
           <Link
-            class="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
+            className="whitespace-no-wrap block bg-gray-100 py-2 pl-8 hover:bg-gray-200"
             href="/contest/contest-5"
           >
             Contest 5
@@ -57,7 +57,7 @@ const Dropdown = () => {
         <div className="dropdown">
           <li>
             <Link
-              class="whitespace-no-wrap flex bg-gray-100 py-1 pl-8 hover:bg-gray-200"
+              className="whitespace-no-wrap flex bg-gray-100 py-1 pl-8 hover:bg-gray-200"
               href="/contest/contest-6"
             >
               Contest 6 <AiOutlineRight className="mt-1" />

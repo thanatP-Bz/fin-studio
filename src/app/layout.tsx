@@ -2,6 +2,8 @@ import "./globals.css";
 import NavbarMain from "../components/navbar/NavbarMain";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
+import Lightbox from "../components/lightbox/Lightbox";
+
 import { Text_Me_One } from "next/font/google";
 
 const inter = Text_Me_One({ subsets: ["latin"], weight: "400" });
@@ -22,6 +24,7 @@ export default function RootLayout({
         <div className="main-container">
           <NavbarMain />
           <Navbar />
+          <Lightbox />
           {children}
           <Footer />
         </div>
