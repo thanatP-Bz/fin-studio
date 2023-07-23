@@ -2,7 +2,6 @@ import "./globals.css";
 import NavbarMain from "../components/navbar/NavbarMain";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
-import Lightbox from "../components/lightbox/Lightbox";
 
 import { Text_Me_One } from "next/font/google";
 
