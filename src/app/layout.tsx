@@ -24,7 +24,6 @@ export default function RootLayout({
         <div className="main-container">
           <NavbarMain />
           <Navbar />
-          <Lightbox />
           {children}
           <Footer />
         </div>
