@@ -9,7 +9,7 @@ const Model = ({ clickedImg, setClickedImg }) => {
 
   return (
     <div>
-      <div className="fixed left-0 top-0 z-[500] h-screen w-full bg-black/50">
+      <div className="fixed left-0 top-0 z-[500] h-screen w-full bg-black/70">
         <span
           className="absolute right-0 top-0 cursor-pointer"
           onClick={closeModelHandler}
