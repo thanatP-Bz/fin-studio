@@ -1,8 +1,10 @@
 import React from "react";
 import { RiCloseFill } from "react-icons/ri";
+import { BsChevronBarLeft, BsChevronBarRight } from "react-icons/bs";
+
 import Image from "next/image";
 
-const Model = ({ clickedImg, setClickedImg }) => {
+const Model = ({ clickedImg, setClickedImg, prevSlide, nextSlide }) => {
   const closeModelHandler = () => {
     setClickedImg(null);
   };
@@ -14,7 +16,24 @@ const Model = ({ clickedImg, setClickedImg }) => {
           className="absolute right-0 top-0 cursor-pointer"
           onClick={closeModelHandler}
         >
-          <RiCloseFill className="text-4xl text-white" />
+          <RiCloseFill
+            className="text-4xl text-white"
+            onClick={closeModelHandler}
+          />
+        </span>
+
+        <span>
+          <BsChevronBarLeft
+            className="absolute left-0 top-[50%] cursor-pointer text-4xl text-white"
+            onClick={prevSlide}
+          />
+        </span>
+
+        <span>
+          <BsChevronBarRight
+            className="absolute right-0 top-[50%] cursor-pointer text-4xl text-white"
+            onClick={nextSlide}
+          />
         </span>
         <div className="absolute left-1/2 top-1/2 z-[1000] h-[80%] w-[80%] -translate-x-1/2 -translate-y-1/2 transform  text-black">
           <Image
