@@ -5,19 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/fin-dark.png";
 
-const contestSubLinks = [
-  {
-    id: 1,
-    title: "professional",
-    url: "/professional",
-  },
-  {
-    id: 2,
-    title: "student",
-    url: "/student",
-  },
-];
-
 const NavbarMain = () => {
   return (
     <div className="fixed left-0 z-30 hidden w-full bg-white pb-2  md:block">
