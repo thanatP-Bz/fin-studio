@@ -14,6 +14,40 @@ const ContestOne = () => {
     setClickedImg(item.link);
   };
 
+  const prevSlide = () => {
+    const totalLength = data.length;
+    if (currentIndex === 0) {
+      setCurrentIndex(totalLength - 1);
+      const newUrl = data[totalLength - 1].link;
+      setClickedImg(newUrl);
+      return;
+    }
+    const newIndex = currentIndex - 1;
+    const newUrl = data.filter((item) => {
+      return data.indexOf(item) === newIndex;
+    });
+    const newItem = newUrl[0].link;
+    setClickedImg(newItem);
+    setCurrentIndex(newIndex);
+  };
+
+  const nextSlide = () => {
+    const totalLength = data.length;
+    if (currentIndex + 1 >= totalLength) {
+      setCurrentIndex(0);
+      const newUrl = data[0].link;
+      setClickedImg(newUrl);
+      return;
+    }
+    const newIndex = currentIndex + 1;
+    const newUrl = data.filter((item) => {
+      return data.indexOf(item) === newIndex;
+    });
+    const newItem = newUrl[0].link;
+    setClickedImg(newItem);
+    setCurrentIndex(newIndex);
+  };
+
   return (
     <div className="my-4">
       <h1 className="p-10 text-center text-2xl font-bold uppercase">
@@ -36,7 +70,12 @@ const ContestOne = () => {
           );
         })}
         {clickedImg && (
-          <Model clickedImg={clickedImg} setClickedImg={setClickedImg} />
+          <Model
+            clickedImg={clickedImg}
+            setClickedImg={setClickedImg}
+            prevSlide={prevSlide}
+            nextSlide={nextSlide}
+          />
         )}
       </div>
     </div>

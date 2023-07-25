@@ -16,7 +16,6 @@ import fifteen from "../../../public/contest-2/15.jpg";
 import sixteen from "../../../public/contest-2/16.jpg";
 import seventeen from "../../../public/contest-2/17.jpg";
 import eighteen from "../../../public/contest-2/18.jpg";
-import nineteen from "../../../public/contest-2/19.jpg";
 import twenty from "../../../public/contest-2/20.jpg";
 import twentyOne from "../../../public/contest-2/21.jpg";
 import twentyTwo from "../../../public/contest-2/22.jpg";
@@ -98,10 +97,6 @@ export const data = [
   {
     text: "image-18",
     link: eighteen,
-  },
-  {
-    text: "image-19",
-    link: nineteen,
   },
   {
     text: "image-20",
