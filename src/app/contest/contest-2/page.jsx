@@ -17,12 +17,6 @@ const ContestTwo = () => {
   const prevSlide = () => {};
 
   const nextSlide = () => {
-    if (currentIndex + 1 >= data.length) {
-      setCurrentIndex(0);
-      newItem = data[0].link;
-      setClickedImg(newItem);
-      return;
-    }
     console.log("next");
   };
 
