@@ -13,8 +13,8 @@ const NavbarMain = () => {
           <Link href="/">
             <Image
               src={Logo}
-              width={160}
-              height={160}
+              width={120}
+              height={120}
               alt="logo"
               className="h-auto w-auto p-2"
             />
