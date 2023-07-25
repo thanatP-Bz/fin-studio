@@ -1,6 +1,6 @@
 import React from "react";
 import { RiCloseFill } from "react-icons/ri";
-import { BsChevronBarLeft, BsChevronBarRight } from "react-icons/bs";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 import Image from "next/image";
 
@@ -23,19 +23,19 @@ const Model = ({ clickedImg, setClickedImg, prevSlide, nextSlide }) => {
         </span>
 
         <span>
-          <BsChevronBarLeft
+          <BsChevronLeft
             className="absolute left-0 top-[50%] cursor-pointer text-4xl text-white"
             onClick={prevSlide}
           />
         </span>
 
         <span>
-          <BsChevronBarRight
+          <BsChevronRight
             className="absolute right-0 top-[50%] cursor-pointer text-4xl text-white"
             onClick={nextSlide}
           />
         </span>
-        <div className="absolute left-1/2 top-1/2 z-[1000] h-[80%] w-[80%] -translate-x-1/2 -translate-y-1/2 transform  text-black">
+        <div className="no-highlight absolute left-1/2 top-1/2 z-[1000] h-[80%] w-[80%] -translate-x-1/2 -translate-y-1/2 transform bg-transparent text-black">
           <Image
             src={clickedImg}
             alt="bigger-image"
