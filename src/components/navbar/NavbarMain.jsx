@@ -29,7 +29,7 @@ const NavbarMain = () => {
               width={160}
               height={160}
               alt="logo"
-              className="p-2"
+              className="h-auto w-auto p-2"
             />
           </Link>
 
