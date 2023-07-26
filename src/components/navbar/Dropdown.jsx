@@ -66,10 +66,10 @@ const Dropdown = () => {
           <ul className="dropdown-content absolute -mt-10 ml-36 hidden text-gray-700">
             <li>
               <Link
-                href="/contest/contest-6/professional"
+                href="/contest/contest-6/master"
                 className="whitespace-no-wrap block bg-gray-100 px-4 py-2 hover:bg-gray-200"
               >
-                Professional
+                master
               </Link>
             </li>
             <li>

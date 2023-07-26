@@ -18,7 +18,6 @@ import image17 from "../../../public/contest-3/17.jpg";
 import image18 from "../../../public/contest-3/18.jpg";
 import image19 from "../../../public/contest-3/19.jpg";
 import image20 from "../../../public/contest-3/20.jpg";
-
 import image21 from "../../../public/contest-3/21.jpg";
 import image22 from "../../../public/contest-3/22.jpg";
 import image23 from "../../../public/contest-3/23.jpg";
@@ -39,7 +38,6 @@ import image37 from "../../../public/contest-3/37.jpg";
 import image38 from "../../../public/contest-3/38.jpg";
 import image39 from "../../../public/contest-3/39.jpg";
 import image40 from "../../../public/contest-3/40.jpg";
-
 import image41 from "../../../public/contest-3/41.jpg";
 import image42 from "../../../public/contest-3/42.jpg";
 import image43 from "../../../public/contest-3/43.jpg";
@@ -60,7 +58,6 @@ import image57 from "../../../public/contest-3/57.jpg";
 import image58 from "../../../public/contest-3/58.jpg";
 import image59 from "../../../public/contest-3/59.jpg";
 import image60 from "../../../public/contest-3/60.jpg";
-
 import image61 from "../../../public/contest-3/61.jpg";
 import image62 from "../../../public/contest-3/62.jpg";
 import image63 from "../../../public/contest-3/63.jpg";
@@ -76,87 +73,6 @@ import image73 from "../../../public/contest-3/73.jpg";
 import image74 from "../../../public/contest-3/74.jpg";
 
 export const data = [
-  {
-    text: "1",
-    link: image1,
-  },
-  {
-    text: "2",
-    link: image2,
-  },
-  {
-    text: "3",
-    link: image3,
-  },
-  {
-    text: "4",
-    link: image4,
-  },
-  {
-    text: "5",
-    link: image5,
-  },
-  {
-    text: "6",
-    link: image6,
-  },
-  {
-    text: "7",
-    link: image7,
-  },
-  {
-    text: "8",
-    link: image8,
-  },
-  {
-    text: "9",
-    link: image9,
-  },
-  {
-    text: "10",
-    link: image10,
-  },
-  {
-    text: "11",
-    link: image11,
-  },
-  {
-    text: "12",
-    link: image12,
-  },
-  {
-    text: "13",
-    link: image13,
-  },
-  {
-    text: "14",
-    link: image14,
-  },
-  {
-    text: "15",
-    link: image15,
-  },
-  {
-    text: "16",
-    link: image16,
-  },
-  {
-    text: "17",
-    link: image17,
-  },
-  {
-    text: "18",
-    link: image18,
-  },
-  {
-    text: "19",
-    link: image19,
-  },
-  {
-    text: "20",
-    link: image20,
-  },
-
   {
     text: "1",
     link: image1,
