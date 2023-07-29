@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import { preImg } from "../../components/images/Work";
 
 const Works = () => {
   return (
@@ -10,6 +12,35 @@ const Works = () => {
               works
             </h1>
           </div>
+        </div>
+      </div>
+
+      {/* showcase */}
+      <div
+        id="showcase"
+        className="mx-auto mt-8 w-full max-w-[1200px] bg-green-300 text-center text-xl"
+      >
+        <div>
+          <h1>Architecture 3D Presentation</h1>
+          <div>
+            {preImg.map((img, index) => {
+              return (
+                <div key={index}>
+                  <Image src={img.link} alt={img.alt} />
+                </div>
+              );
+            })}
+          </div>
+          <button>Explore More</button>
+        </div>
+        <div>
+          <h1>Architecture Design</h1>
+          <div></div>
+          <button>Explore More</button>
+        </div>
+        <div>
+          <h1>Architecture Rendering</h1>
+          <div>Explore More</div>
         </div>
       </div>
     </>
