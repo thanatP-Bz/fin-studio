@@ -18,20 +18,28 @@ const Works = () => {
       {/* showcase */}
       <div
         id="showcase"
-        className="mx-auto mt-8 w-full max-w-[1200px] bg-green-300 text-center text-xl"
+        className="mx-auto mt-8 flex w-full max-w-[1200px] flex-col gap-8 text-center text-xl"
       >
-        <div>
-          <h1>Architecture 3D Presentation</h1>
-          <div>
+        <div className="bg-gray-100">
+          <h1 className="p-4 uppercase">Architecture 3D Presentation</h1>
+          <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
             {preImg.map((img, index) => {
               return (
-                <div key={index}>
-                  <Image src={img.link} alt={img.alt} />
+                <div key={index} className="h-[300px] w-full">
+                  <Image
+                    src={img.link}
+                    alt={img.alt}
+                    className="h-full w-full cursor-pointer object-cover"
+                  />
                 </div>
               );
             })}
           </div>
-          <button>Explore More</button>
+          <div className="flex w-full items-center justify-end p-4 px-8">
+            <button className="link-underline-black link-underline  text-lg uppercase">
+              Explore More
+            </button>
+          </div>
         </div>
         <div>
           <h1>Architecture Design</h1>
