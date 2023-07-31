@@ -17,7 +17,3 @@ export const preImg = [
     alt: "image-3",
   },
 ];
-
-/* design */
-
-/* rendering */
