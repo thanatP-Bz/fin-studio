@@ -21,7 +21,7 @@ const Works = () => {
       {/* showcase */}
       <div
         id="showcase"
-        className="mx-auto mt-8 flex w-full max-w-[1200px] flex-col gap-8 text-center text-xl"
+        className="mx-auto mt-8 flex w-full max-w-[1200px] flex-col text-center text-xl"
       >
         {/* Architecture Design */}
         <div>
@@ -39,7 +39,7 @@ const Works = () => {
               );
             })}
           </div>
-          <div className="flex w-full items-center justify-end p-4 px-8 ">
+          <div className="flex w-full items-center justify-end p-4 px-8">
             <button className="link-underline-black link-underline flex gap-1 text-lg uppercase">
               More Projects
               <HiArrowRight className="mt-1" />
