@@ -8,12 +8,12 @@ export const preImg = [
     link: preOneImg,
     alt: "image-1",
   },
-  {
+ /*  {
     link: preTwoImg,
     alt: "image-2",
   },
   {
     link: preThreeImg,
     alt: "image-3",
-  },
+  }, */
 ];

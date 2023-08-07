@@ -7,7 +7,7 @@ import Logo from "../../../public/fin-dark.png";
 
 const NavbarMain = () => {
   return (
-    <div className="fixed left-0 z-30 hidden w-full bg-white pb-2 md:block">
+    <div className="fixed left-0 z-30 hidden w-full bg-white pb-1 md:block">
       <nav className=" h-full flex-col items-center justify-between">
         <div className="flex h-full flex-col items-center ">
           <Link href="/">
