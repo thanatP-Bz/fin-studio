@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { preImg } from "../../components/images/Presentation";
+import Link from "next/link";
+import { preImgOne } from "../../components/images/Presentation";
 import { renderImg } from "../../components/images/RenderImg";
 import { designImg } from "../../components/images/DesignImg";
 import { HiArrowRight } from "react-icons/hi";
@@ -46,6 +47,7 @@ const Works = () => {
             </button>
           </div>
         </div>
+
         {/*Architecture Rendering  */}
         <div>
           <h1 className="p-4 uppercase">Architecture Rendering</h1>
@@ -74,9 +76,9 @@ const Works = () => {
         <div>
           <h1 className="p-4 uppercase">Architecture 3D Presentation</h1>
           <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
-            {preImg.map((img, index) => {
+            {preImgOne.map((img, index) => {
               return (
-                <div key={index} className="h-[300px] w-[375px] shadow-md">
+                <div key={index} className="h-[300px] w-full shadow-md">
                   <Image
                     src={img.link}
                     alt={img.alt}
@@ -87,10 +89,13 @@ const Works = () => {
             })}
           </div>
           <div className="flex w-full items-center justify-end p-4 px-8 ">
-            <button className="link-underline-black link-underline flex gap-1 text-lg uppercase">
+            <Link
+              href="/works/presentation"
+              className="link-underline-black link-underline flex gap-1 text-lg uppercase"
+            >
               More Projects
               <HiArrowRight className="mt-1" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
