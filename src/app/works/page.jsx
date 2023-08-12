@@ -32,7 +32,7 @@ const Works = () => {
               return (
                 <div key={index} className="h-[300px] w-full shadow-md">
                   <Image
-                    src={img.link}
+                    src={img.image}
                     alt={img.alt}
                     className="h-full w-full cursor-pointer object-cover"
                   />
@@ -54,17 +54,23 @@ const Works = () => {
           <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
             {renderImg.map((img, index) => {
               return (
-                <div key={index} className="h-[300px] w-full shadow-md">
-                  <Image
-                    src={img.link}
-                    alt={img.alt}
-                    className="h-full w-full cursor-pointer object-cover"
-                  />
+                <div key={index}>
+                  <h1 className="p-2 uppercase">{img.title}</h1>
+                  <Link href={img.link}>
+                    <div className="overlay relative h-[300px] w-full shadow-md">
+                      <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500" />
+                      <Image
+                        src={img.image}
+                        alt={img.alt}
+                        className="h-full w-full cursor-pointer object-cover"
+                      />
+                    </div>
+                  </Link>
                 </div>
               );
             })}
           </div>
-          <div className="flex w-full items-center justify-end p-4 px-8 ">
+          <div className="flex w-full items-center justify-end p-4 px-8">
             <button className="link-underline-black link-underline flex gap-1 text-lg uppercase">
               More Projects
               <HiArrowRight className="mt-1" />
@@ -80,7 +86,7 @@ const Works = () => {
               return (
                 <div key={index} className="h-[300px] w-full shadow-md">
                   <Image
-                    src={img.link}
+                    src={img.image}
                     alt={img.alt}
                     className="h-full w-full cursor-pointer object-cover"
                   />

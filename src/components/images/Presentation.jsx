@@ -8,42 +8,42 @@ import preSixImg from "../../../public/work/architecture 3D presentation/1/06.jp
 
 export const preImgOne = [
   {
-    link: preOneImg,
+    image: preOneImg,
     alt: "image-1",
   },
   {
-    link: preTwoImg,
+    image: preTwoImg,
     alt: "image-2",
   },
   {
-    link: preThreeImg,
+    image: preThreeImg,
     alt: "image-3",
   },
 ];
 
 export const preImgTwo = [
   {
-    link: preOneImg,
+    image: preOneImg,
     alt: "image-1",
   },
   {
-    link: preTwoImg,
+    image: preTwoImg,
     alt: "image-2",
   },
   {
-    link: preThreeImg,
+    image: preThreeImg,
     alt: "image-3",
   },
   {
-    link: preFourImg,
+    image: preFourImg,
     alt: "image-4",
   },
   {
-    link: preFiveImg,
+    image: preFiveImg,
     alt: "image-5",
   },
   {
-    link: preSixImg,
+    image: preSixImg,
     alt: "image-6",
   },
 ];

@@ -116,3 +116,8 @@ body {
 .dropdown:hover > .dropdown-content {
   display: block;
 }
+
+/* hover works pictures */
+.overlay:hover > .overlay-nth {
+  opacity: 1;
+}

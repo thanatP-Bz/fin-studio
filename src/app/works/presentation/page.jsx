@@ -11,14 +11,14 @@ const Presentation = () => {
 
   const handlerClick = (item, index) => {
     setCurrentIndex(index);
-    setClickedImg(item.link);
+    setClickedImg(item.image);
   };
 
   const prevSlide = () => {
     const totalLength = preImgTwo.length;
     if (currentIndex === 0) {
       setCurrentIndex(totalLength - 1);
-      const newUrl = preImgTwo[totalLength - 1].link;
+      const newUrl = preImgTwo[totalLength - 1].image;
       setClickedImg(newUrl);
       return;
     }
@@ -26,7 +26,7 @@ const Presentation = () => {
     const newUrl = preImgTwo.filter((item) => {
       return preImgTwo.indexOf(item) === newIndex;
     });
-    const newItem = newUrl[0].link;
+    const newItem = newUrl[0].image;
     setClickedImg(newItem);
     setCurrentIndex(newIndex);
   };
@@ -35,7 +35,7 @@ const Presentation = () => {
     const totalLength = preImgTwo.length;
     if (currentIndex + 1 >= totalLength) {
       setCurrentIndex(0);
-      const newUrl = preImgTwo[0].link;
+      const newUrl = preImgTwo[0].image;
       setClickedImg(newUrl);
       return;
     }
@@ -43,7 +43,7 @@ const Presentation = () => {
     const newUrl = preImgTwo.filter((item) => {
       return preImgTwo.indexOf(item) === newIndex;
     });
-    const newItem = newUrl[0].link;
+    const newItem = newUrl[0].image;
     setClickedImg(newItem);
     setCurrentIndex(newIndex);
   };
@@ -60,7 +60,7 @@ const Presentation = () => {
           return (
             <div key={index} className="h-[300px] w-full">
               <Image
-                src={item.link}
+                src={item.image}
                 alt={item.alt}
                 priority={true}
                 className="h-full w-full cursor-pointer object-cover shadow-md"

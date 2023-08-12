@@ -4,15 +4,15 @@ import ImgThree from "../../../public/work/architecture design/01อาคาร
 
 export const designImg = [
   {
-    link: ImgOne,
+    image: ImgOne,
     alt: "image-1",
   },
   {
-    link: ImgTwo,
+    image: ImgTwo,
     alt: "image-2",
   },
   {
-    link: ImgThree,
+    image: ImgThree,
     alt: "image-3",
   },
 ];

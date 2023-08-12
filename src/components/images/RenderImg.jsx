@@ -4,15 +4,19 @@ import ImgThree from "../../../public/work/architecture rendering/interior/1 บ
 
 export const renderImg = [
   {
-    link: ImgOne,
+    title: "interior",
+    image: ImgOne,
     alt: "image-1",
+    link: "/works/render/interior",
   },
   {
-    link: ImgTwo,
+    title: "exterior",
+    image: ImgTwo,
     alt: "image-2",
+    link: "/works/render/exterior",
   },
-  {
+  /* {
     link: ImgThree,
     alt: "image-3",
-  },
+  }, */
 ];
