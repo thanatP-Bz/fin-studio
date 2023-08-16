@@ -1,12 +1,23 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Model from "@/components/model/Model";
 import { preImgOne } from "../../components/images/Presentation";
 import { renderImg } from "../../components/images/RenderImg";
 import { designImg } from "../../components/images/DesignImg";
 import { HiArrowRight } from "react-icons/hi";
 
 const Works = () => {
+  const [clickedImg, setClickedImg] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlerClick = (item, index) => {
+    setCurrentIndex(index);
+    setClickedImg(item.image);
+  };
+
   return (
     <>
       <div className="flex h-[70vh] w-full items-center justify-center md:h-[90vh]">
@@ -51,14 +62,17 @@ const Works = () => {
         {/*Architecture Rendering  */}
         <div>
           <h1 className="p-4 uppercase">Architecture Rendering</h1>
-          <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
+          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
             {renderImg.map((img, index) => {
               return (
                 <div key={index}>
-                  <h1 className="p-2 uppercase">{img.title}</h1>
                   <Link href={img.link}>
                     <div className="overlay relative h-[300px] w-full shadow-md">
-                      <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500" />
+                      <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500">
+                        <h1 className="unppercase absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-white">
+                          {img.title}
+                        </h1>
+                      </div>
                       <Image
                         src={img.image}
                         alt={img.alt}
@@ -70,12 +84,12 @@ const Works = () => {
               );
             })}
           </div>
-          <div className="flex w-full items-center justify-end p-4 px-8">
+          {/* <div className="flex w-full items-center justify-end p-4 px-8">
             <button className="link-underline-black link-underline flex gap-1 text-lg uppercase">
               More Projects
               <HiArrowRight className="mt-1" />
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Architecture 3D Presentation */}
@@ -85,14 +99,21 @@ const Works = () => {
             {preImgOne.map((img, index) => {
               return (
                 <div key={index} className="h-[300px] w-full shadow-md">
-                  <Image
-                    src={img.image}
-                    alt={img.alt}
-                    className="h-full w-full cursor-pointer object-cover"
-                  />
+                  <div className="overlay relative h-[300px] w-full cursor-pointer shadow-md">
+                    <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500" />
+                    <Image
+                      src={img.image}
+                      alt={img.alt}
+                      className="h-full w-full cursor-pointer object-cover"
+                      onClick={() => handlerClick(img, index)}
+                    />
+                  </div>
                 </div>
               );
             })}
+            {clickedImg && (
+              <Model clickedImg={clickedImg} setClickedImg={setClickedImg} />
+            )}
           </div>
           <div className="flex w-full items-center justify-end p-4 px-8 ">
             <Link

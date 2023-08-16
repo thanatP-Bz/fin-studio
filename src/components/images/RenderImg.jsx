@@ -1,6 +1,5 @@
-import ImgOne from "../../../public/work/architecture rendering/interior/1 บ้านพักอาศัย 3 ชั้น/1.jpg";
-import ImgTwo from "../../../public/work/architecture rendering/interior/1 บ้านพักอาศัย 3 ชั้น/2.jpg";
-import ImgThree from "../../../public/work/architecture rendering/interior/1 บ้านพักอาศัย 3 ชั้น/3.jpg";
+import ImgOne from "../../../public/work/architecture rendering/exterior/one-story-house/1.jpg";
+import ImgTwo from "../../../public/work/architecture rendering/interior/font-desk-hotel/1.jpg";
 
 export const renderImg = [
   {

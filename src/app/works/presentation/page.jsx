@@ -50,9 +50,7 @@ const Presentation = () => {
 
   return (
     <div className="my-4">
-      <h1 className="p-10 text-center text-2xl font-bold uppercase">
-        contest 1
-      </h1>
+      <h1 className="p-10 text-center text-2xl font-bold uppercase"></h1>
 
       {/* picture */}
       <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
