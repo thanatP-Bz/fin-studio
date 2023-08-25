@@ -1,15 +1,15 @@
-import ImgOne from "../../../../../../public/work/architecture rendering/exterior/bhumibol-building/1.jpg";
-import ImgTwo from "../../../../../../public/work/architecture rendering/exterior/bhumibol-building/2.jpg";
+import one from "../../../../../../public/work/architecture rendering/exterior/bhumibol-building/1.jpg";
+import two from "../../../../../../public/work/architecture rendering/exterior/bhumibol-building/2.jpg";
 
 export const data = [
   {
     title: "bhumibol building",
-    image: ImgOne,
+    image: one,
     alt: "image-1",
   },
   {
     title: "bhumibol building",
-    image: ImgTwo,
+    image: two,
     alt: "image-2",
   },
 ];

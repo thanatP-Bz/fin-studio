@@ -39,7 +39,7 @@ export const data = [
     link: "/works/render/exterior/05",
   },
   {
-    title: "two story house renovation",
+    title: "two storey house renovation",
     image: ImgSix,
     alt: "image-6",
     link: "/works/render/exterior/06",

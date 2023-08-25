@@ -66,7 +66,7 @@ import sixty from "../../../../../../public/work/architecture rendering/exterior
 
 import sixtyOne from "../../../../../../public/work/architecture rendering/exterior/others/61.jpg";
 import sixtyTwo from "../../../../../../public/work/architecture rendering/exterior/others/62.jpg";
-import sixtythree from "../../../../../../public/work/architecture rendering/exterior/others/63.jpg";
+import sixtyThree from "../../../../../../public/work/architecture rendering/exterior/others/63.jpg";
 import sixtyFour from "../../../../../../public/work/architecture rendering/exterior/others/64.jpg";
 import sixtyFive from "../../../../../../public/work/architecture rendering/exterior/others/65.jpg";
 import sixtySix from "../../../../../../public/work/architecture rendering/exterior/others/66.jpg";
@@ -74,6 +74,7 @@ import sixtySeven from "../../../../../../public/work/architecture rendering/ext
 import sixtyEight from "../../../../../../public/work/architecture rendering/exterior/others/68.jpg";
 
 export const data = [
+  /* first part */
   {
     title: "others",
     image: ImgOne,
@@ -126,7 +127,7 @@ export const data = [
     alt: "image-10",
   },
 
-  /* eleven */
+  /* second part */
   {
     title: "others",
     image: eleven,
@@ -177,5 +178,260 @@ export const data = [
     title: "others",
     image: twenty,
     alt: "image-20",
+  },
+
+  /* third part */
+  {
+    title: "others",
+    image: twentyOne,
+    alt: "image-21",
+  },
+  {
+    title: "others",
+    image: twentyTwo,
+    alt: "image-22",
+  },
+  {
+    title: "others",
+    image: twentyThree,
+    alt: "image-23",
+  },
+
+  {
+    title: "others",
+    image: twentyFour,
+    alt: "image-24",
+  },
+  {
+    title: "others",
+    image: twentyFive,
+    alt: "image-25",
+  },
+  {
+    title: "others",
+    image: twentySix,
+    alt: "image-26",
+  },
+  {
+    title: "others",
+    image: twentSeven,
+    alt: "image-27",
+  },
+  {
+    title: "others",
+    image: twentyEight,
+    alt: "image-28",
+  },
+  {
+    title: "others",
+    image: twentyNine,
+    alt: "image-29",
+  },
+  {
+    title: "others",
+    image: thirty,
+    alt: "image-30",
+  },
+
+  /* forth part */
+  {
+    title: "others",
+    image: thirtyOne,
+    alt: "image-31",
+  },
+  {
+    title: "others",
+    image: thirtyTwo,
+    alt: "image-32",
+  },
+  {
+    title: "others",
+    image: thirtyThree,
+    alt: "image-33",
+  },
+
+  {
+    title: "others",
+    image: thirtyFour,
+    alt: "image-34",
+  },
+  {
+    title: "others",
+    image: thirtyFive,
+    alt: "image-35",
+  },
+  {
+    title: "others",
+    image: thirtySix,
+    alt: "image-36",
+  },
+  {
+    title: "others",
+    image: thirtySeven,
+    alt: "image-37",
+  },
+  {
+    title: "others",
+    image: thirtyEight,
+    alt: "image-38",
+  },
+  {
+    title: "others",
+    image: thirtyNine,
+    alt: "image-39",
+  },
+  {
+    title: "others",
+    image: fourty,
+    alt: "image-40",
+  },
+
+  /* fifth part */
+  {
+    title: "others",
+    image: fourtyOne,
+    alt: "image-41",
+  },
+  {
+    title: "others",
+    image: fourtyTwo,
+    alt: "image-42",
+  },
+  {
+    title: "others",
+    image: fourtyThree,
+    alt: "image-43",
+  },
+
+  {
+    title: "others",
+    image: fourtyFour,
+    alt: "image-44",
+  },
+  {
+    title: "others",
+    image: fourtyFive,
+    alt: "image-45",
+  },
+  {
+    title: "others",
+    image: fourtySix,
+    alt: "image-46",
+  },
+  {
+    title: "others",
+    image: fourtySeven,
+    alt: "image-47",
+  },
+  {
+    title: "others",
+    image: fourtyEight,
+    alt: "image-48",
+  },
+  {
+    title: "others",
+    image: fourtyNine,
+    alt: "image-49",
+  },
+  {
+    title: "others",
+    image: fifty,
+    alt: "image-50",
+  },
+
+  /* sixth part */
+  {
+    title: "others",
+    image: fiftyOne,
+    alt: "image-51",
+  },
+  {
+    title: "others",
+    image: fiftyTwo,
+    alt: "image-52",
+  },
+  {
+    title: "others",
+    image: fiftyThree,
+    alt: "image-53",
+  },
+
+  {
+    title: "others",
+    image: fiftyFour,
+    alt: "image-54",
+  },
+  {
+    title: "others",
+    image: fiftyFive,
+    alt: "image-55",
+  },
+  {
+    title: "others",
+    image: fiftySix,
+    alt: "image-56",
+  },
+  {
+    title: "others",
+    image: fiftySeven,
+    alt: "image-57",
+  },
+  {
+    title: "others",
+    image: fiftyEight,
+    alt: "image-58",
+  },
+  {
+    title: "others",
+    image: fiftyNine,
+    alt: "image-59",
+  },
+  {
+    title: "others",
+    image: sixty,
+    alt: "image-60",
+  },
+
+  /* last part */
+  {
+    title: "others",
+    image: sixtyOne,
+    alt: "image-61",
+  },
+  {
+    title: "others",
+    image: sixtyTwo,
+    alt: "image-62",
+  },
+  {
+    title: "others",
+    image: sixtyThree,
+    alt: "image-53",
+  },
+
+  {
+    title: "others",
+    image: sixtyFour,
+    alt: "image-64",
+  },
+  {
+    title: "others",
+    image: sixtyFive,
+    alt: "image-65",
+  },
+  {
+    title: "others",
+    image: sixtySix,
+    alt: "image-66",
+  },
+  {
+    title: "others",
+    image: sixtySeven,
+    alt: "image-67",
+  },
+  {
+    title: "others",
+    image: sixtyEight,
+    alt: "image-68",
   },
 ];

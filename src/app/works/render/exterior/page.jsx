@@ -28,7 +28,7 @@ const Exterior = () => {
               <Link href={img.link}>
                 <div className="overlay relative h-[300px] w-full shadow-md">
                   <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500">
-                    <h1 className="no-spance absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
+                    <h1 className="no-spance absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-center uppercase text-white">
                       {img.title}
                     </h1>
                   </div>
