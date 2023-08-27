@@ -1,5 +1,5 @@
-import ImgOne from "../../../public/work/architecture rendering/exterior/one-story-house/1.jpg";
-import ImgTwo from "../../../public/work/architecture rendering/interior/font-desk-hotel/1.jpg";
+import ImgOne from "../../../public/work/architecture rendering/interior/two-storey-house/a5_1 - Photo.jpg";
+import ImgTwo from "../../../public/work/architecture rendering/exterior/presentation-for-sale/10.jpg";
 
 export const renderImg = [
   {
