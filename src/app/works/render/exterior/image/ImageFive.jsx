@@ -1,11 +1,11 @@
 import ImgOne from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/1.jpg";
-import ImgTwo from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/2.png";
+
 import ImgThree from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/3.jpg";
-import ImgFour from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/4.png";
+
 import ImgFive from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/5.jpg";
-import ImgSix from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/6.png";
+
 import ImgSeven from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/7.jpg";
-import ImgEight from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/8.png";
+
 import ImgNine from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/9.jpg";
 import ImgTen from "../../../../../../public/work/architecture rendering/exterior/presentation-for-sale/10.jpg";
 
@@ -131,11 +131,7 @@ export const data = [
     image: ImgOne,
     alt: "image-1",
   },
-  {
-    title: "presentation for sale",
-    image: ImgTwo,
-    alt: "image-2",
-  },
+
   {
     title: "presentation for sale",
     image: ImgThree,
@@ -144,29 +140,16 @@ export const data = [
 
   {
     title: "presentation for sale",
-    image: ImgFour,
-    alt: "image-4",
-  },
-  {
-    title: "presentation for sale",
     image: ImgFive,
     alt: "image-5",
   },
-  {
-    title: "presentation for sale",
-    image: ImgSix,
-    alt: "image-6",
-  },
+
   {
     title: "presentation for sale",
     image: ImgSeven,
     alt: "image-7",
   },
-  {
-    title: "presentation for sale",
-    image: ImgEight,
-    alt: "image-8",
-  },
+
   {
     title: "presentation for sale",
     image: ImgNine,

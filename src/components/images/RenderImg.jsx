@@ -1,4 +1,4 @@
-import ImgOne from "../../../public/work/architecture rendering/interior/font-desk-hotel/2.jpg";
+import ImgOne from "../../../public/work/architecture rendering/interior/others/39.jpg";
 import ImgTwo from "../../../public/work/architecture rendering/exterior/presentation-for-sale/10.jpg";
 
 export const renderImg = [
