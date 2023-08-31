@@ -8,16 +8,10 @@ import preSixImg from "../../../public/work/architecture 3D presentation/1/06.jp
 
 export const preImgOne = [
   {
+    title: "pavilion and temple",
     image: preOneImg,
     alt: "image-1",
-  },
-  {
-    image: preTwoImg,
-    alt: "image-2",
-  },
-  {
-    image: preThreeImg,
-    alt: "image-3",
+    link: "/works/presentation",
   },
 ];
 

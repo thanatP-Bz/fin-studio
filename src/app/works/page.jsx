@@ -33,15 +33,18 @@ const Works = () => {
       {/* showcase */}
       <div
         id="showcase"
-        className="mx-auto mt-8 flex w-full max-w-[1200px] flex-col text-center text-xl"
+        className=" mx-auto mt-10 flex w-full max-w-[1200px] flex-col text-center text-xl"
       >
         {/* Architecture Design */}
         <div>
           <h1 className="p-4 uppercase">Architecture Design</h1>
-          <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
+          <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,1200px))] items-center gap-2 px-8">
             {designImg.map((img, index) => {
               return (
-                <div key={index} className="h-[300px] w-full shadow-md">
+                <div
+                  key={index}
+                  className="h-[300px] w-full shadow-md md:h-[400px]"
+                >
                   <Image
                     src={img.image}
                     alt={img.alt}
@@ -62,12 +65,12 @@ const Works = () => {
         {/*Architecture Rendering  */}
         <div>
           <h1 className="p-4 uppercase">Architecture Rendering</h1>
-          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
+          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,1200px))] items-center gap-2 px-8">
             {renderImg.map((img, index) => {
               return (
                 <div key={index}>
                   <Link href={img.link}>
-                    <div className="overlay relative h-[300px] w-full shadow-md">
+                    <div className="overlay relative h-[300px] w-full shadow-md md:h-[400px]">
                       <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500">
                         <h1 className="unppercase absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
                           {img.title}
@@ -84,45 +87,35 @@ const Works = () => {
               );
             })}
           </div>
-          {/* <div className="flex w-full items-center justify-end p-4 px-8">
-            <button className="link-underline-black link-underline flex gap-1 text-lg uppercase">
-              More Projects
-              <HiArrowRight className="mt-1" />
-            </button>
-          </div> */}
         </div>
 
         {/* Architecture 3D Presentation */}
         <div>
           <h1 className="p-4 uppercase">Architecture 3D Presentation</h1>
-          <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
+          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,1200px))] items-center gap-2 px-8 md:mb-32">
             {preImgOne.map((img, index) => {
               return (
-                <div key={index} className="h-[300px] w-full shadow-md">
-                  <div className="overlay relative h-[300px] w-full cursor-pointer shadow-md">
-                    <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500" />
-                    <Image
-                      src={img.image}
-                      alt={img.alt}
-                      className="h-full w-full cursor-pointer object-cover"
-                      onClick={() => handlerClick(img, index)}
-                    />
-                  </div>
+                <div key={index}>
+                  <Link href={img.link}>
+                    <div className="overlay relative h-[300px] w-full shadow-md md:h-[400px]">
+                      <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500">
+                        <h1 className="unppercase absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
+                          {img.title}
+                        </h1>
+                      </div>
+                      <Image
+                        src={img.image}
+                        alt={img.alt}
+                        className="h-full w-full cursor-pointer object-cover"
+                      />
+                    </div>
+                  </Link>
                 </div>
               );
             })}
             {clickedImg && (
               <Model clickedImg={clickedImg} setClickedImg={setClickedImg} />
             )}
-          </div>
-          <div className="flex w-full items-center justify-end p-4 px-8 ">
-            <Link
-              href="/works/presentation"
-              className="link-underline-black link-underline flex gap-1 text-lg uppercase"
-            >
-              More Projects
-              <HiArrowRight className="mt-1" />
-            </Link>
           </div>
         </div>
       </div>
