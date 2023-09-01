@@ -5,7 +5,7 @@ import Image from "next/image";
 import Model from "@/components/model/Model";
 import { preImgTwo } from "../../../components/images/Presentation";
 
-const Presentation = () => {
+const ImageOne = () => {
   const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -15,7 +15,7 @@ const Presentation = () => {
   };
 
   const prevSlide = () => {
-    const totalLength = preImgTwo.length;
+    const totalLength = data.length;
     if (currentIndex === 0) {
       setCurrentIndex(totalLength - 1);
       const newUrl = preImgTwo[totalLength - 1].image;
@@ -23,8 +23,8 @@ const Presentation = () => {
       return;
     }
     const newIndex = currentIndex - 1;
-    const newUrl = preImgTwo.filter((item) => {
-      return preImgTwo.indexOf(item) === newIndex;
+    const newUrl = data.filter((item) => {
+      return data.indexOf(item) === newIndex;
     });
     const newItem = newUrl[0].image;
     setClickedImg(newItem);
@@ -32,16 +32,16 @@ const Presentation = () => {
   };
 
   const nextSlide = () => {
-    const totalLength = preImgTwo.length;
+    const totalLength = data.length;
     if (currentIndex + 1 >= totalLength) {
       setCurrentIndex(0);
-      const newUrl = preImgTwo[0].image;
+      const newUrl = data[0].image;
       setClickedImg(newUrl);
       return;
     }
     const newIndex = currentIndex + 1;
-    const newUrl = preImgTwo.filter((item) => {
-      return preImgTwo.indexOf(item) === newIndex;
+    const newUrl = data.filter((item) => {
+      return data.indexOf(item) === newIndex;
     });
     const newItem = newUrl[0].image;
     setClickedImg(newItem);
@@ -50,13 +50,18 @@ const Presentation = () => {
 
   return (
     <div className="my-4">
-      <h1 className="p-10 text-center text-2xl font-bold uppercase"></h1>
+      <h1 className="p-10 text-center text-2xl font-bold uppercase md:mt-[6rem]">
+        Palilin And Temple
+      </h1>
 
       {/* picture */}
       <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
         {preImgTwo.map((item, index) => {
           return (
-            <div key={index} className="h-[300px] w-full">
+            <div
+              key={index}
+              className=" h-[300px] w-full duration-500 hover:shadow-2xl"
+            >
               <Image
                 src={item.image}
                 alt={item.alt}
@@ -80,4 +85,4 @@ const Presentation = () => {
   );
 };
 
-export default Presentation;
+export default ImageOne;

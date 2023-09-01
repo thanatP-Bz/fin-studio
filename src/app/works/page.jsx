@@ -92,7 +92,7 @@ const Works = () => {
         {/* Architecture 3D Presentation */}
         <div>
           <h1 className="p-4 uppercase">Architecture 3D Presentation</h1>
-          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,1200px))] items-center gap-2 px-8 md:mb-32">
+          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,1200px))] items-center gap-2 px-8 md:mb-10">
             {preImgOne.map((img, index) => {
               return (
                 <div key={index}>
