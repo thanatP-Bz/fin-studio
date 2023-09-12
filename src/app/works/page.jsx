@@ -38,27 +38,27 @@ const Works = () => {
         {/* Architecture Design */}
         <div>
           <h1 className="p-4 uppercase">Architecture Design</h1>
-          <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,1200px))] items-center gap-2 px-8">
+          <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
             {designImg.map((img, index) => {
               return (
-                <div
-                  key={index}
-                  className="h-[300px] w-full shadow-md md:h-[400px]"
-                >
-                  <Image
-                    src={img.image}
-                    alt={img.alt}
-                    className="h-full w-full cursor-pointer object-cover"
-                  />
+                <div key={index}>
+                  <Link href={img.link}>
+                    <div className="overlay relative h-[300px] w-full shadow-md md:h-[300px]">
+                      <div className="overlay-nth absolute left-0 top-0 h-full w-full bg-black/50 opacity-0 duration-500">
+                        <h1 className="unppercase absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
+                          {img.title}
+                        </h1>
+                      </div>
+                      <Image
+                        src={img.image}
+                        alt={img.alt}
+                        className="h-full w-full cursor-pointer object-cover"
+                      />
+                    </div>
+                  </Link>
                 </div>
               );
             })}
-          </div>
-          <div className="flex w-full items-center justify-end p-4 px-8">
-            <button className="link-underline-black link-underline flex gap-1 text-lg uppercase">
-              More Projects
-              <HiArrowRight className="mt-1" />
-            </button>
           </div>
         </div>
 
