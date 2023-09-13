@@ -7,7 +7,6 @@ import Model from "@/components/model/Model";
 import { preImgOne } from "../../components/images/Presentation";
 import { renderImg } from "../../components/images/RenderImg";
 import { designImg } from "../../components/images/DesignImg";
-import { HiArrowRight } from "react-icons/hi";
 
 const Works = () => {
   const [clickedImg, setClickedImg] = useState(null);

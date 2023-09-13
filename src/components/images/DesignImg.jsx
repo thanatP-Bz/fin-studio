@@ -10,99 +10,99 @@ import nine from "../../../public/work/architecture design/hall-of-fame/1.jpg";
 import ten from "../../../public/work/architecture design/khun-tuk-house/1.jpg";
 import eleven from "../../../public/work/architecture design/mirror-house/1.jpg";
 import twelve from "../../../public/work/architecture design/monk-house-wat-chula/1.jpg";
-import thirteen from "../../../public/work/architecture design/offices-and-houses/1.jpg";
-import fourteen from "../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/1.jpg";
-import fifteen from "../../../public/work/architecture design/Nattakit-house/1.jpg";
+import thirteen from "../../../public/work/architecture design/Nattakit-house/1.jpg";
+import fourteen from "../../../public/work/architecture design/offices-and-houses/1.jpg";
+import fifteen from "../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/1.jpg";
 
 export const designImg = [
   {
-    title: "Anongnarok",
+    title: "Bann Khun Anongnarok",
     image: one,
     alt: "Anongnarok",
-    link: "/works/render/interior/01",
+    link: "/works/design/01",
   },
   {
     title: "babique shop",
     image: two,
     alt: "babique-shop",
-    link: "/works/render/interior/02",
+    link: "/works/design/02",
   },
   {
     title: "Bann Khun Daeng",
     image: three,
     alt: "bann-khun-daeng",
-    link: "/works/render/design/03",
+    link: "/works/design/03",
   },
   {
     title: "Bann Khun Khomes",
     image: four,
     alt: "bann-khun-Khomes",
-    link: "/works/render/design/04",
+    link: "/works/design/04",
   },
   {
     title: "Baan Khun Panupong",
     image: five,
     alt: "bann-khun-panupong",
-    link: "/works/render/design/05",
+    link: "/works/design/05",
   },
   {
     title: "Bann Khunta",
     image: six,
     alt: "bann-khunta",
-    link: "/works/render/design/06",
+    link: "/works/design/06",
   },
   {
     title: "Crematory Wat Chula",
     image: seven,
     alt: "crematory-wat-chula",
-    link: "/works/render/design/07",
+    link: "/works/design/07",
   },
   {
     title: "Guest House Wat Chula",
     image: eight,
     alt: "guest-house-wat-chula",
-    link: "/works/render/design/08",
+    link: "/works/design/08",
   },
   {
     title: "Hall Of Fame",
     image: nine,
     alt: "hall-of-fame",
-    link: "/works/render/design/09",
+    link: "/works/design/09",
   },
   {
     title: "Khun Tuk House",
     image: ten,
     alt: "khun-tuk-house",
-    link: "/works/render/design/10",
+    link: "/works/design/10",
   },
   {
     title: "Mirror House",
     image: eleven,
     alt: "mirror-house",
-    link: "/works/render/design/11",
+    link: "/works/design/11",
   },
   {
     title: "Monk House Wat Chula",
     image: twelve,
     alt: "monk-house-wat-chula",
-    link: "/works/render/design/12",
-  },
-  {
-    title: "Offices And Houses",
-    image: thirteen,
-    alt: "offices-and-houses",
-    link: "/works/render/design/13",
-  },
-  {
-    title: "Place Of Worship Wat Wung Pong",
-    image: fourteen,
-    alt: "place-of-worship-Wat-Wung-Pong",
-    link: "/works/render/design/14",
+    link: "/works/design/12",
   },
   {
     title: "Nattkit House",
+    image: thirteen,
+    alt: "Nattkit House",
+    link: "/works/design/13",
+  },
+  {
+    title: "Offices And Houses",
+    image: fourteen,
+    alt: "Offices And Houses",
+    link: "/works/design/14",
+  },
+  {
+    title: "Place Of Worship Wat Wung Pong",
     image: fifteen,
-    alt: "Nattakit-house",
-    link: "/works/render/design/15",
+    alt: "Place Of Worship Wat Wung Pong",
+    link: "/works/design/15",
   },
 ];
