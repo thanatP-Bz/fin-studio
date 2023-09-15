@@ -4,11 +4,6 @@ import three from "../../../../../public/work/architecture design/place-of-worsh
 import four from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/4.jpg";
 import five from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/5.jpg";
 import six from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/6.jpg";
-import seven from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/7.jpg";
-import eight from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/8.jpg";
-import nine from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/9.jpg";
-import ten from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/10.jpg";
-import eleven from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/11.jpg";
 import twelve from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/12.jpg";
 import thirteen from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/13.jpg";
 import fourteen from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/14.jpg";
@@ -46,31 +41,7 @@ export const data = [
     image: six,
     alt: "image-6",
   },
-  {
-    title: "Place Of WarShip Wat WungPong",
-    image: seven,
-    alt: "image-7",
-  },
-  {
-    title: "Place Of WarShip Wat WungPong",
-    image: eight,
-    alt: "image-8",
-  },
-  {
-    title: "Place Of WarShip Wat WungPong",
-    image: nine,
-    alt: "image-9",
-  },
-  {
-    title: "Place Of WarShip Wat WungPong",
-    image: ten,
-    alt: "image-10",
-  },
-  {
-    title: "Place Of WarShip Wat WungPong",
-    image: eleven,
-    alt: "image-11",
-  },
+
   {
     title: "Place Of WarShip Wat WungPong",
     image: twelve,
