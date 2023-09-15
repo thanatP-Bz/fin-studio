@@ -14,6 +14,7 @@ import thirteen from "../../../../../public/work/architecture design/place-of-wo
 import fourteen from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/14.jpg";
 import fifteen from "../../../../../public/work/architecture design/place-of-worship-Wat-Wung-Pong/15.jpg";
 
+/* fix Imge */
 export const data = [
   {
     title: "     Place Of WarShip Wat WungPong",
