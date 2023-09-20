@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Model from "@/components/model/Model";
-import { data } from "../image/ImgThree";
 
 const ImageThree = () => {
   const [clickedImg, setClickedImg] = useState(null);
