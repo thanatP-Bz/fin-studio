@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Model from "@/components/model/Model";
+import { data } from "../images/ImgOne";
 
 const ImageOne = () => {
   const [clickedImg, setClickedImg] = useState(null);
@@ -55,7 +56,7 @@ const ImageOne = () => {
 
       {/* picture */}
       <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
-        {/* {data.map((item, index) => {
+        {data.map((item, index) => {
           return (
             <div
               key={index}
@@ -78,7 +79,7 @@ const ImageOne = () => {
             prevSlide={prevSlide}
             nextSlide={nextSlide}
           />
-        )} */}
+        )}
       </div>
     </div>
   );
