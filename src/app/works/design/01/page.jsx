@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Model from "@/components/model/Model";
 import { data } from "../images/ImgOne";
+import { BiArrowBack } from "react-icons/bi";
+import Button from "../../../../components/button/Button";
 
 const ImageOne = () => {
   const [clickedImg, setClickedImg] = useState(null);
@@ -50,12 +52,15 @@ const ImageOne = () => {
 
   return (
     <div className="my-4">
-      <h1 className="p-10 text-center text-2xl font-bold uppercase md:mt-[6rem]">
-        Bann Khun Anongnarok
-      </h1>
+      <div className="mt-20 bg-red-500 p-10">
+        <div>test</div>
+        <h1 className="text-center text-2xl font-bold uppercase">
+          Bann Khun Anongnarok
+        </h1>
+      </div>
 
       {/* picture */}
-      <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
+      {/* <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
         {data.map((item, index) => {
           return (
             <div
@@ -80,7 +85,7 @@ const ImageOne = () => {
             nextSlide={nextSlide}
           />
         )}
-      </div>
+      </div> */}
     </div>
   );
 };
