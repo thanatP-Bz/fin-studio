@@ -55,7 +55,7 @@ const ImageThree = () => {
 
       {/* picture */}
       <div className="mx-auto grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
-        {data.map((item, index) => {
+        {/* {data.map((item, index) => {
           return (
             <div
               key={index}
@@ -78,7 +78,7 @@ const ImageThree = () => {
             prevSlide={prevSlide}
             nextSlide={nextSlide}
           />
-        )}
+        )} */}
       </div>
     </div>
   );
