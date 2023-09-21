@@ -1,4 +1,4 @@
-import one from "../../../public/work/architecture design/Anongnarok-house/1.jpg";
+/* import one from "../../../public/work/architecture design/Anongnarok-house/1.jpg";
 import two from "../../../public/work/architecture design/babique-shop/1.jpg";
 import three from "../../../public/work/architecture design/bann-khun-daeng/1.jpg";
 import four from "../../../public/work/architecture design/bann-khun-Khomes/1.jpg";
@@ -6,7 +6,7 @@ import five from "../../../public/work/architecture design//bann-khun-panupong/1
 import six from "../../../public/work/architecture design/bann-khunta/1.jpg";
 import seven from "../../../public/work/architecture design/crematory-wat-chula/1.jpg";
 import eight from "../../../public/work/architecture design/guest-house-wat-chula/1.jpg";
-import nine from "../../../public/work/architecture design/hall-of-fame/1.jpg";
+
 import ten from "../../../public/work/architecture design/khun-tuk-house/1.jpg";
 import eleven from "../../../public/work/architecture design/mirror-house/1.jpg";
 import twelve from "../../../public/work/architecture design/monk-house-wat-chula/1.jpg";
@@ -65,7 +65,7 @@ export const designImg = [
   },
   {
     title: "Hall Of Fame",
-    image: nine,
+    image: "",
     alt: "hall-of-fame",
     link: "/works/design/09",
   },
@@ -106,3 +106,4 @@ export const designImg = [
     link: "/works/design/15",
   },
 ];
+ */
