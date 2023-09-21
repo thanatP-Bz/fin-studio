@@ -38,7 +38,7 @@ const Works = () => {
         <div>
           <h1 className="p-4 uppercase">Architecture Design</h1>
           <div className="mx-auto mb-10 grid h-full w-full max-w-[1200px] grid-cols-[repeat(auto-fit,minmax(300px,2fr))] items-center gap-2 px-8">
-            {/*  {designImg.map((img, index) => {
+            {designImg.map((img, index) => {
               return (
                 <div key={index}>
                   <Link href={img.link}>
@@ -57,7 +57,7 @@ const Works = () => {
                   </Link>
                 </div>
               );
-            })} */}
+            })}
           </div>
         </div>
 

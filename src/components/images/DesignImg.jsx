@@ -1,4 +1,4 @@
-/* import one from "../../../public/work/architecture design/Anongnarok-house/1.jpg";
+import one from "../../../public/work/architecture design/Anongnarok-house/1.jpg";
 import two from "../../../public/work/architecture design/babique-shop/1.jpg";
 import three from "../../../public/work/architecture design/bann-khun-daeng/1.jpg";
 import four from "../../../public/work/architecture design/bann-khun-Khomes/1.jpg";
@@ -106,4 +106,3 @@ export const designImg = [
     link: "/works/design/15",
   },
 ];
- */
